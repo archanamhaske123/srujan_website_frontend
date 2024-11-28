@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> 
   <div class="contact-page section">
   <div class="container">
   <div class="row mb-5 pb-5">
