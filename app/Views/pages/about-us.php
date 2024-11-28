@@ -1,11 +1,10 @@
-<section id="page-header-banner" class="about-page-bg">
+<!-- <section id="page-header-banner" class="about-page-bg">
   <div class="page-heading header-text banner-content">
     <div class="container about-us">
       <div class="flex-container">
         <img src="<?= base_url(); ?>assets/images/about-us/about-us-icon.svg" alt="Mentor Image" class="image">
         <div class="text-content">
           <h1>About Us</h1>
-          <!-- <p>Developing Entrepreneurial Mindset</p> -->
         </div>
       </div>
    
@@ -14,12 +13,10 @@
           supporting start-ups and entrepreneurs. The centre provide a conducive environment, resources, mentoring, and
           networking opportunities to foster the growth and success of innovative ventures.
         </p>
-
-     
     </div>
   </div>
-</section>
-<section class="vision-mission-section">
+</section> -->
+<!-- <section class="vision-mission-section">
   <div class="fluid-container">
     
       <div class="row">
@@ -51,7 +48,7 @@
       </div>
    
   </div>
-</section>
+</section> -->
 <section id="our-leader" class="our-leader section-mt">
   <div class="container" id="banner-common-design">
     <div class="flex-container">
