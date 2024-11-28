@@ -89,16 +89,16 @@
             <div class="program-cards-c program-cards-1-c">
               <img src="<?= base_url() ?>assets/images/contact/Call-icon.svg" alt="Address Icon" class="icon">
               <h3>Contact</h3>
-              <p>02066741252</p>
-
+              <!-- <p>02066741252</p> -->
+              <a href="tel:02066741252"> 02066741252</a>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="program-cards-c program-cards-1-c">
               <img src="<?= base_url() ?>assets/images/contact/mail-icon.svg" alt="Address Icon" class="icon">
               <h3>Email</h3>
-              <p>edu@sbup.edu.in</p>
-
+              <!-- <p>edu@sbup.edu.in</p> -->
+              <a href="mailto:edu@sbup.edu.in">edu@sbup.edu.in</a>
             </div>
           </div>
         </div>
