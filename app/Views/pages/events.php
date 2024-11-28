@@ -24,7 +24,7 @@
       <div class="col-lg-6 col-md-12 order-1 order-lg-2 text-start">
         <h2>National Level Entrepreneurship Competition: ARAMBH Season-1</h2>
         <p>ARAMBH Season 1, the National Level Entrepreneurship Competition hosted by Srujan EDIC at Sri Balaji University, Pune, on January 10th 2024, proved to be a resounding success, fostering innovation and collaboration.</p>
-        <a href="<?= base_url()?>arambh" class="btn btn-primary openModal" target="_blank">Read More</a>
+        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
       </div>
     </div>
 
@@ -33,7 +33,7 @@
       <div class="col-lg-6 col-md-12 order-2 order-lg-1 text-start">
         <h2>Festival of Start-up 2023</h2>
         <p>The preliminary round of the Festival of Startup - 2023, organized by Pimpri Chinchwad Startup Incubation Center (PCSIC), took place on September 4, 2023, at Sri Balaji University Pune.</p>
-        <button type="button" class="btn btn-primary openModal" data-modal="#eventModal2">Read More</button>
+        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
       </div>
       <div class="col-lg-6 col-md-12 order-1 order-lg-2">
         <img src="<?= base_url()?>assets/images/events/startup-festival-img.svg" alt="Event Icon" class="img-fluid">
@@ -48,7 +48,7 @@
       <div class="col-lg-6 col-md-12 text-start">
         <h2>IIT Bombay 2024 - E-Summit</h2>
         <p>Srujan Entrepreneurship development and Incubation Center was privileged to participate in the prestigious IIT Bombay E-Summit as an incubator partner.</p>
-        <button type="button" class="btn btn-primary openModal" data-modal="#eventModal3">Read More</button>
+        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
       </div>
     </div>
 
@@ -57,7 +57,7 @@
       <div class="col-lg-6 col-md-12 order-2 order-lg-1 text-start">
         <h2>Visit to - T-Hub</h2>
         <p>Mr. Chetan Kavitake, Innovation Manager at T-Hub, invited the selected students of SBUP to T-Hub on Friday, 5th April 2024 for orientation and briefing of Blitz program.</p>
-        <button type="button" class="btn btn-primary openModal" data-modal="#eventModal4">Read More</button>
+        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
       </div>
       <div class="col-lg-6 col-md-12 order-1 order-lg-2">
         <img src="<?= base_url()?>assets/images/events/visit-t-hub-img.svg" alt="Event Icon" class="img-fluid">
@@ -106,7 +106,8 @@
       </div>
     </div>
   </div>
-
+</div>
+</div>
   <!-- Modal 2 -->
   <div class="modal fade" id="eventModal2" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel2" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
