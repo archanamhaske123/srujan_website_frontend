@@ -28,13 +28,13 @@
                       <div id="contact-owl-carousel" class="contact-carousel-1 owl-carousel owl-theme " >
                               
                       <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-01.svg">
+                                <img src="<?= base_url(); ?>assets/images/contact/contact-01.svg" alt="Contact icon>
                             </div> 
                             <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-02.svg">
+                                <img src="<?= base_url(); ?>assets/images/contact/contact-02.svg" alt="Contact icon>
                             </div>
                             <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-03.svg" >
+                                <img src="<?= base_url(); ?>assets/images/contact/contact-03.svg" alt="Contact icon>
                             </div>
                             <div class="item">
                                 <img src="<?= base_url(); ?>assets/images/contact/contact-04.svg" >
