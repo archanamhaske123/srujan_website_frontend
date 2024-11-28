@@ -67,19 +67,19 @@ https://templatemo.com/tm-591-villa-agency
           </ul>
           <ul class="social-links ">
             <li style="margin-right: 10px; padding-left: 15px;">
-              <a href="#"><img src="<?= base_url(); ?>assets/images/youtube.svg" alt="Youtube" style="width: 20px;" class="img-fluid"></a>
+              <a href="#" target="_blank" ><img src="<?= base_url(); ?>assets/images/youtube.svg" alt="Youtube" style="width: 20px;" class="img-fluid"></a>
             </li>
             <li style="margin-right: 10px;">
-              <a href="#"><img src="<?= base_url(); ?>assets/images/facebook.svg" alt="Facebook" style="width: 20px;" class="img-fluid"></a>
+              <a href="https://www.facebook.com/Srujan.edic?mibextid=ZbWKwL" target="_blank"><img src="<?= base_url(); ?>assets/images/facebook.svg" alt="Facebook" style="width: 20px;" class="img-fluid"></a>
             </li>
             <li style="margin-right: 10px;">
-              <a href="#"><img src="<?= base_url(); ?>assets/images/linkedin.svg" alt="LinkedIn" style="width: 20px;" class="img-fluid"></a>
+              <a href="https://www.linkedin.com/company/srujan-entrepreneurship-development-incubation-centre" target="_blank" ><img src="<?= base_url(); ?>assets/images/linkedin.svg" alt="LinkedIn" style="width: 20px;" class="img-fluid"></a>
             </li>
             <li style="margin-right: 10px;">
-              <a href="#"><img src="<?= base_url(); ?>assets/images/twitter.svg" alt="Twitter" style="width: 20px;" class="img-fluid"></a>
+              <a href="#" target="_blank" ><img src="<?= base_url(); ?>assets/images/twitter.svg" alt="Twitter" style="width: 20px;" class="img-fluid"></a>
             </li>
             <li>
-              <a href="#"><img src="<?= base_url(); ?>assets/images/Instagram.svg" alt="Instagram" style="width: 20px;" class="img-fluid"></a>
+              <a href="https://www.instagram.com/srujan.edic/" target="_blank" ><img src="<?= base_url(); ?>assets/images/Instagram.svg" alt="Instagram" style="width: 20px;" class="img-fluid"></a>
             </li>
           </ul>
         </div>
@@ -136,11 +136,11 @@ https://templatemo.com/tm-591-villa-agency
               </a>
             </div>
             <div class="social-icons">
-              <a href="#"><img src="<?= base_url(); ?>assets/images/youtube01.svg" alt="Youtube"></a>
-              <a href="#"><img src="<?= base_url(); ?>assets/images/facebook01.svg" alt="Facebook"></a>
-              <a href="#"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn"></a>
-              <a href="#"><img src="<?= base_url(); ?>assets/images/twitter01.svg" alt="Twitter"></a>
-              <a href="#"><img src="<?= base_url(); ?>assets/images/instagram01.svg" alt="Instagram"></a>
+              <a href="#" target="_blank" ><img src="<?= base_url(); ?>assets/images/youtube01.svg" alt="Youtube"></a>
+              <a href="https://www.facebook.com/Srujan.edic?mibextid=ZbWKwL" target="_blank" ><img src="<?= base_url(); ?>assets/images/facebook01.svg" alt="Facebook"></a>
+              <a href="https://www.linkedin.com/company/srujan-entrepreneurship-development-incubation-centre" target="_blank" ><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn"></a>
+              <a href="#" target="_blank" ><img src="<?= base_url(); ?>assets/images/twitter01.svg" alt="Twitter"></a>
+              <a href="https://www.instagram.com/srujan.edic/" target="_blank" ><img src="<?= base_url(); ?>assets/images/instagram01.svg" alt="Instagram"></a>
             </div>
           </div>
           <div class="col-lg-8 col-md-12 col-sm-12" style="display: flex; flex-wrap: wrap;">
@@ -180,11 +180,11 @@ https://templatemo.com/tm-591-villa-agency
                 </div>
                 <div class="contact-item">
                   <img src="<?= base_url(); ?>assets/images/phone-icon.svg" alt="Phone Icon">
-                  <p>02066741252</p>
+                  <a href="tel:02066741252" target="_blank" >02066741252</a>
                 </div>
                 <div class="contact-item">
                   <img src="<?= base_url(); ?>assets/images/email-icon.svg" alt="Email Icon">
-                  <p>edu@sbup.edu.in</p>
+                  <a href="mailto:edu@sbup.edu.in" target="_blank" >edu@sbup.edu.in</a>
                 </div>
               </div>
             </div>

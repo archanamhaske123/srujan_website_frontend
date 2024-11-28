@@ -2367,6 +2367,12 @@ program Style
   color: #1E3888;
   margin-bottom: 20px;
 }
+.program-cards-c a {
+  font-size: 16px;
+  color: #1E3888;
+  margin-bottom: 20px;
+}
+
 
 /* Text color for program-cards-2-c */
 #contact-card .program-cards-2-c h3 {
@@ -2386,13 +2392,15 @@ program Style
 
 /* Optional: Hover effect on text for program-cards-1-c */
 #contact-card .program-cards-1-c:hover h3,
-#contact-card .program-cards-1-c:hover p {
+#contact-card .program-cards-1-c:hover p,
+#contact-card .program-cards-1-c:hover a{
   color: var(--white); /* Keep text color white when hovered */
 }
 
 /* Optional: Hover effect on text for program-cards-2-c */
 #contact-card .program-cards-2-c:hover h3,
-#contact-card .program-cards-2-c:hover p {
+#contact-card .program-cards-2-c:hover p,
+#contact-card .program-cards-2-c:hover a{
   color: #004E98; /* Change text color to blue when hovered */
 }
 
@@ -2732,6 +2740,13 @@ footer {
 }
 
 footer p {
+  /* text-align: center;
+  line-height: 60px; */
+  color: var(--secondary-color);
+  font-size: 1rem;
+  /* font-weight: 700; */
+}
+footer .contact-item a {
   /* text-align: center;
   line-height: 60px; */
   color: var(--secondary-color);
