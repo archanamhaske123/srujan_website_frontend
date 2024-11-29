@@ -11,7 +11,7 @@
     </div>
   </div>
 </section>
-<section id="mentors" class="mentors">
+<section id="mentors" class="mentors section-mt">
   <div class="container mt-5">
     <div class="row" style="margin: 0px;">
       <div class="col-lg-4 col-md-6 col-sm-12 " style="margin: 0px; padding: 0px;">
@@ -21,6 +21,7 @@
                 </div>
                 <h3>Mr. Piyush Bhan</h3>
                 <p>Sr. Vice President, International <br> Business, Salucro Healthcare <br>Solutions</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12">
@@ -31,6 +32,7 @@
                 </div>
                 <h3>Mr. Abhijeet Kumar</h3>
                 <p>Founder Stepbeta</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -41,6 +43,7 @@
                 </div>
                 <h3>Dr. Prajakta M Joshi</h3>
                 <p>Founder Pune Women’s Solo <br>Travelers</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -52,6 +55,7 @@
                 <h3>Mr. Aditya Kulkarni</h3>
                 <p>Founder Growthtech Consultants <br> Private Limited
                 </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -63,6 +67,7 @@
                 <h3>Mr. Kunal Bhardwaj</h3>
                 <p>Founder Reevoly
                 </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -73,6 +78,7 @@
                 </div>
                 <h3>Mr. Deepak Rai</h3>
                 <p>Founder Pulse Play Digital</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -83,6 +89,7 @@
                 </div>
                 <h3>Dr. Neeraj Satnalika</h3>
                 <p>Founder EduFund</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -93,6 +100,7 @@
                 </div>
                 <h3>Mr. Vindeep Methani</h3>
                 <p>Founder Transform with Vindeep</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -103,6 +111,7 @@
                 </div>
                 <h3>Mr. Suraj Kedia</h3>
                 <p>Company Secretary Reliable <br> Professional Services</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -113,6 +122,7 @@
                 </div>
                 <h3>Mr. Vikas Pandey</h3>
                 <p>Program Manager - Transitions & <br>Transformations at Fujitsu</p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -123,6 +133,7 @@
                 </div>
                 <h3>Mrs. Varsharani Bhaghatpatil </h3>
                 <p>Pune Start-up Innovation Cluster </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -135,6 +146,7 @@
                 </h3>
                 <p>Co-Founder & Director - Business<br> Development<br>
                   Intellectual Investments & Financial <br>Services Pvt. Ltd.</p>
+                  <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -145,6 +157,7 @@
                 </div>
                 <h3>Mr. Uday Deo</h3>
                 <p>APICS certified supply chain <br>professional (CSCP) & Mentor </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -158,6 +171,7 @@
                   Intellectual Investments & Financial <br>Services Pvt. Ltd.
                   
                 </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -169,6 +183,7 @@
                 <h3>Mr. Varun Goel</h3>
                 <p>Founder Uznaka Solutions Private<br> Limited 
                 </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -180,6 +195,7 @@
                 <h3>Mr. Dinesh Jain</h3>
                 <p>Co-Founder & Director - Business <br>Development<br>
                   Intellectual Investments & Financial<br> Services Pvt. Ltd </p>
+                  <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -192,6 +208,7 @@
                 </h3>
                 <p>Co-Founder at SkinInTheGame Brand<br> Solutions Pvt Ltd
                 </p>
+                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
     </div>

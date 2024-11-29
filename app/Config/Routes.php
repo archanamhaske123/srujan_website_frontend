@@ -15,4 +15,6 @@ $routes->get('/what-we-do', 'Home::what_we_do');
 $routes->get('/startups', 'Home::startups');
 $routes->get('/programs', 'Home::programs');
 $routes->get('/facilities', 'Home::facilities');
+$routes->get('/arambh','Home::arambh');
+$routes->post('/contact-us/save','PageController::contactUsSave');
 
