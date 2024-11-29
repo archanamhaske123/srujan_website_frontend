@@ -10,56 +10,56 @@
       </div>
     </div>
   </div>
-</section>
+</section> 
   <div class="contact-page section">
  
   <div class="container my-5">
   <!-- Section Wrapper -->
   <div class="row mb-5">
     <!-- Event 1 -->
-    <div class="row align-items-center mt-3">
+    <div class="row program-flex">
       <div class="col-lg-6 col-md-12">
         <img src="<?= base_url()?>assets/images/events/aarambh-seassion-image.svg" alt="Event Icon" class="img-fluid">
       </div>
-      <div class="col-lg-6 col-md-12 order-1 order-lg-2 text-start">
+      <div class="col-lg-6 col-md-12 program-padding">
         <h2>National Level Entrepreneurship Competition: ARAMBH Season-1</h2>
         <p>ARAMBH Season 1, the National Level Entrepreneurship Competition hosted by Srujan EDIC at Sri Balaji University, Pune, on January 10th 2024, proved to be a resounding success, fostering innovation and collaboration.</p>
-        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
+        <a href="<?=base_url()?>arambh" class="explore-btn-second openModal" target="_blank">Read More</a>
       </div>
     </div>
 
     <!-- Event 2 -->
-    <div class="row align-items-center mt-3">
-      <div class="col-lg-6 col-md-12 order-2 order-lg-1 text-start">
+    <div class="row  program-flex-2">
+      <div class="col-lg-6 col-md-12 program-padding">
         <h2>Festival of Start-up 2023</h2>
         <p>The preliminary round of the Festival of Startup - 2023, organized by Pimpri Chinchwad Startup Incubation Center (PCSIC), took place on September 4, 2023, at Sri Balaji University Pune.</p>
-        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
+        <a href="#" class="explore-btn-second openModal" target="_blank">Read More</a>
       </div>
-      <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+      <div class="col-lg-6 col-md-12 ">
         <img src="<?= base_url()?>assets/images/events/startup-festival-img.svg" alt="Event Icon" class="img-fluid">
       </div>
     </div>
 
     <!-- Event 3 -->
-    <div class="row align-items-center mt-3">
-      <div class="col-lg-6 col-md-12">
+    <div class="row program-flex ">
+      <div class="col-lg-6 col-md-12  ">
         <img src="<?= base_url()?>assets/images/events/iit-bombay-img.svg" alt="Event Icon" class="img-fluid">
       </div>
-      <div class="col-lg-6 col-md-12 text-start">
+      <div class="col-lg-6 col-md-12 text-start  program-padding">
         <h2>IIT Bombay 2024 - E-Summit</h2>
         <p>Srujan Entrepreneurship development and Incubation Center was privileged to participate in the prestigious IIT Bombay E-Summit as an incubator partner.</p>
-        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
+        <a href="#" class="explore-btn-second openModal" target="_blank">Read More</a>
       </div>
     </div>
 
     <!-- Event 4 -->
-    <div class="row align-items-center mt-3">
-      <div class="col-lg-6 col-md-12 order-2 order-lg-1 text-start">
+    <div class="row program-flex-2">
+      <div class="col-lg-6 col-md-12 program-padding">
         <h2>Visit to - T-Hub</h2>
         <p>Mr. Chetan Kavitake, Innovation Manager at T-Hub, invited the selected students of SBUP to T-Hub on Friday, 5th April 2024 for orientation and briefing of Blitz program.</p>
-        <a href="#" class="btn btn-primary openModal" target="_blank">Read More</a>
+        <a href="#" class="explore-btn-second openModal" target="_blank">Read More</a>
       </div>
-      <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+      <div class="col-lg-6 col-md-12   ">
         <img src="<?= base_url()?>assets/images/events/visit-t-hub-img.svg" alt="Event Icon" class="img-fluid">
       </div>
     </div>
