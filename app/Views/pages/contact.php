@@ -24,46 +24,45 @@
       </div>
       <section id="contact-carousel" class="contact-carousel">
 
-                  
-                  <div class="container mt-5">
-                      <div id="contact-owl-carousel" class="contact-carousel-1 owl-carousel owl-theme " >
-                              
-                      <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-01.svg" alt="Contact icon-01">
-                            </div> 
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-02.svg" alt="Contact icon-02">
-                            </div>
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-03.svg" alt="Contact icon-03">
-                            </div>
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-04.svg" alt="Contact icon-04">
-                            </div> 
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-05.svg" alt="Contact icon-05">
-                            </div>
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-06.svg" alt="Contact icon-06">
-                            </div>
-                          
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-07.svg" alt="Contact icon-07">
-                            </div>
-                         
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-08.svg" alt="Contact icon-08">
-                            </div>
-                         
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-09.svg" alt="Contact icon-09">
-                            </div>
-                         
-                            <div class="item">
-                                <img src="<?= base_url(); ?>assets/images/contact/contact-10.svg" alt="Contact icon-10">
-                            </div>
-                        </div>
-                  </div>
+        <div class="container mt-5">
+          <div id="contact-owl-carousel" class="contact-carousel-1 owl-carousel owl-theme ">
+
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-01.svg">
+            </div>
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-02.svg">
+            </div>
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-03.svg">
+            </div>
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-04.svg">
+            </div>
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-05.svg">
+            </div>
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-06.svg">
+            </div>
+
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-07.svg">
+            </div>
+
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-08.svg">
+            </div>
+
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-09.svg">
+            </div>
+
+            <div class="item">
+              <img src="<?= base_url(); ?>assets/images/contact/contact-10.svg">
+            </div>
+          </div>
+        </div>
 
       </section>
     </div>
