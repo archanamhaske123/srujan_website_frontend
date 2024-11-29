@@ -1,19 +1,19 @@
-<section id="page-header-banner" class="page-header-banner-1">
+<section id="page-header-banner" class="page-header-banner">
   <div class="page-heading header-text banner-content">
     <div class="container">
       <div class="flex-container">
-
+      <img src="<?= base_url(); ?>assets/images/facilities/facilities-icon.svg" alt="startup Image"
+      class="image img-fluid ">
         <div class="text-content">
           <h1>Facilities</h1>
           <p>Advanced facilities for learning</p>
         </div>
-        <img src="<?= base_url(); ?>assets/images/facilities/facilities-icon.svg" alt="startup Image"
-          class="image img-fluid ">
+        
       </div>
     </div>
   </div>
 </section>
-<section id="startup-section" class="facilities-section mt-5">
+<section id="startup-section" class="facilities-section section-mt">
   <div class="container">
     <div class="row facilities">
       <!-- Left Column -->

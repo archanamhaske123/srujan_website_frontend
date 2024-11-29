@@ -1,4 +1,4 @@
-<!-- <section id="page-header-banner" class="about-page-bg">
+<section id="page-header-banner" class="about-page-bg">
   <div class="page-heading header-text banner-content">
     <div class="container about-us">
       <div class="flex-container">
@@ -15,8 +15,8 @@
         </p>
     </div>
   </div>
-</section> -->
-<!-- <section class="vision-mission-section">
+</section> 
+<section class="vision-mission-section">
   <div class="fluid-container">
     
       <div class="row">
@@ -48,13 +48,13 @@
       </div>
    
   </div>
-</section> -->
+</section> 
 <section id="our-leader" class="our-leader section-mt">
   <div class="container" id="banner-common-design">
     <div class="flex-container">
       <div class="text-content">
-        <h2>Our Leaders</h2>
-        <p>"Guiding with integrity, leading with vision."</p>
+        <h2 class="right-main-header">Our Leaders</h2>
+        <p class="right-main-para">"Guiding with integrity, leading with vision."</p>
       </div>
       <img src="<?= base_url(); ?>assets/images/about-us/leadership-icon.svg" alt="our leader" class="image img-fluid">
     </div>
@@ -103,8 +103,8 @@
   <div class="container" id="banner-common-design">
     <div class="flex-container">
       <div class="text-content">
-        <h3>Our Team</h3>
-        <p>"Stronger together, achieving more."</p>
+        <h3 class="right-main-header">Our Team</h3>
+        <p class="right-main-para">"Stronger together, achieving more."</p>
       </div>
       <img src="<?= base_url(); ?>assets/images/about-us/team-icon.svg" alt="Our Team" class="image img-fluid">
     </div>
@@ -137,9 +137,9 @@
       </div>
       <div class="mentor-card">
         <div class="image-circle">
-          <img src="<?= base_url(); ?>assets/images/about-us/bijupillai-img.svg" alt="Dr. Biju Pillai">
+          <img src="<?= base_url(); ?>assets/images/about-us/bijupillai-img.svg" alt="Mr. Sunil Chaudhary">
         </div>
-        <h3>Dr. Biju Pillai</h3>
+        <h3>Mr. Sunil Chaudhary</h3>
         <h4>OS,</h4>
         <p>SRUJAN –EDIC</p>
       </div>
@@ -147,7 +147,7 @@
     </div>
   </div>
 </section>
-<section id="director-msg">
+<section id="director-msg" class="section-mt">
   <div class="container">
     <h2 class="title">Director's Message</h2>
     <div class="director-message-container">
