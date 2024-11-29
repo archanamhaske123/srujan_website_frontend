@@ -219,7 +219,12 @@
             }
             // $.notify("Access granted", "success"); // Success notification
           },
-         
+
+          error: function (xhr, status, error) {
+            // If there's an error
+        
+          }
+
         });
       });
     });

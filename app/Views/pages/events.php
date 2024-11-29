@@ -10,6 +10,7 @@
       </div>
     </div>
   </div>
+
 </section> 
 
 <section class="contact-page section event-section">
