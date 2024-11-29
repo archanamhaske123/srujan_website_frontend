@@ -11,7 +11,9 @@
     </div>
   </div>
 </section> 
+
 <section class="contact-page section event-section">
+
   <div class="container my-5">
   <!-- Section Wrapper -->
   <div class="row mb-5">
