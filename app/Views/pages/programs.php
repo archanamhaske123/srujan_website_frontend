@@ -38,7 +38,7 @@
       <div class="tab-pane fade show active" id="pre-incubation" role="tabpanel" aria-labelledby="pre-incubation-tab">
         <!-- <h3>Pre-Incubation</h3>
         <p>This is the content for the Pre-Incubation tab.</p> -->
-        <section class="contact-page mt-3">
+        <section class="contact-page section-mt">
           <div class="container">
             <div class="row program-flex ">
               <div class="col-lg-6 col-sm-12 program-padding">
@@ -136,7 +136,7 @@
           </div>
 
         </section>
-        <section class="section-mt ">
+        <section class="section-mt">
           <div class="container">
             <div class="row program-flex">
               <div class="col-lg-3 col-md-12 col-sm-12">

@@ -24,7 +24,7 @@
       <div class="col-lg-6 col-md-12 program-padding">
         <h2>National Level Entrepreneurship Competition: ARAMBH Season-1</h2>
         <p>ARAMBH Season 1, the National Level Entrepreneurship Competition hosted by Srujan EDIC at Sri Balaji University, Pune, on January 10th 2024, proved to be a resounding success, fostering innovation and collaboration.</p>
-        <a href="#" class="explore-btn-second openModal" target="_blank">Read More</a>
+        <a href="<?=base_url()?>arambh" class="explore-btn-second openModal" target="_blank">Read More</a>
       </div>
     </div>
 

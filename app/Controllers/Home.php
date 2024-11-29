@@ -74,6 +74,12 @@ class Home extends BaseController
 
         return view('index', $data);
     }
-     
+    public function arambh(): string
+    {
+        $data['PageTitle'] = 'Arambh Page';
+        $data['content'] = view('pages/arambh');
+
+        return view('index', $data);
+    } 
     
 }
