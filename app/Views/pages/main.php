@@ -1,8 +1,8 @@
 <section id="home-page-header-banner" class="mb-5">
   <div class="main-banner">
     <video class="video-banner" autoplay muted loop>
-      <source src="<?= base_url(); ?>assets/images/istockphoto-1366539312-640_adpp_is.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="<?= base_url(); ?>assets/images/videoplayback.mp4" type="video/mp4">
+     
     </video>
     <!-- Overlay for gradient effect -->
     <div class="gradient-overlay"></div>
@@ -17,21 +17,21 @@
     </div>
   </div>
 </section>
-<section id="programs-we-offer">
+<section id="programs-we-offer" class="section-mt wow fadeInUp" data-wow-delay="0.6s">
   <div class="container" id="banner-common-design">
-    <div class="flex-container">
+    <div class="flex-container wow fadeInUp" data-wow-delay="0.5s">
       <div class="text-content">
-        <h2>Programs We Offer</h2>
-        <p>Find opportunities to advance your career, explore new interests, and achieve your goals.</p>
+        <h2 class="right-main-header">Programs We Offer</h2>
+        <p class="right-main-para">Find opportunities to advance your career, explore new interests, and achieve your goals.</p>
       </div>
       <img src="<?= base_url(); ?>assets/images/Programs-icon.svg" alt="Developing Entrepreneurial Mindset"
         class="image img-fluid">
     </div>
   </div>
-  <div class="container mt-5">
+  <div class="container mt-5 program-container-width wow fadeInUp" data-wow-delay="0.4s">
     <div class="row">
-      <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
-        <div class="program-cards program-cards-1">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="program-cards program-cards-1 wow fadeInUp" data-wow-delay="0.6s">
 
           <h3>Pre-Incubation Programs</h3>
           <p>Empowering Ideas for Future Innovations</p>
@@ -39,8 +39,8 @@
 
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12  d-flex">
-        <div class="program-cards program-cards-2">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="program-cards program-cards-2 wow fadeInUp" data-wow-delay="0.6s">
 
           <h3>Incubation Programs</h3>
           <p>Transforming Concepts into Successful Ventures</p>
@@ -52,50 +52,50 @@
   </div>
 </section>
 
-<section id="facilities" class="facilities">
-  <div class="container" id="banner-common-design">
-    <div class="flex-container">
+<section id="facilities" class="section-mt facilities">
+  <div class="container" id="banner-common-design wow fadeInUp" data-wow-delay="0.4s">
+    <div class="flex-container  wow fadeInUp" data-wow-delay="0.4s">
       <div class="text-content">
-        <h3>Facilities</h3>
-        <p>Life Changing Opportunities for our dear students</p>
+        <h3 class="right-main-header">Facilities</h3>
+        <p class="right-main-para">Life Changing Opportunities for our dear students</p>
       </div>
       <a href="#" class="explore-btn-second">Explore</a>
     </div>
   </div>
   <div class="container mt-5">
     <div class="row" style="margin: 0px;">
-      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2 wow fadeInUp" data-wow-delay="0.6s" style="margin: 0px; padding: 0px;">
         <div class="program-cards">
           <img src="<?= base_url(); ?>assets/images/Classroom-icon.svg" alt="Classroom" class="image img-fluid">
           <h5>Class Room</h5>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-3" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-3 wow fadeInUp" data-wow-delay="0.6s" style="margin: 0px; padding: 0px;">
         <div class="program-cards ">
           <img src="<?= base_url(); ?>assets/images/Conference-Room-icon.svg" alt="Conference Room"
             class="image img-fluid">
           <h5>Conference Room</h5>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2 wow fadeInUp" data-wow-delay="0.6s" style="margin: 0px; padding: 0px;">
         <div class="program-cards">
           <img src="<?= base_url(); ?>assets/images/Auditorium-icon.svg" alt="Auditorium" class="image img-fluid">
           <h5>Auditorium</h5>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-3" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-3 fadeInUp" data-wow-delay="0.8s" style="margin: 0px; padding: 0px;">
         <div class="program-cards ">
           <img src="<?= base_url(); ?>assets/images/ComputerLab-icon.svg" alt="Computer Lab" class="image img-fluid">
           <h5>Computer Lab</h5>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2 fadeInUp" data-wow-delay="0.8s" style="margin: 0px; padding: 0px;">
         <div class="program-cards">
           <img src="<?= base_url(); ?>assets/images/VIP-Lounge-icon.svg" alt="VIP Lounge" class="image img-fluid">
           <h5>VIP Lounge</h5>
         </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-3" style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-4 col-sm-12 program-cards-3 fadeInUp" data-wow-delay="0.8s" style="margin: 0px; padding: 0px;">
         <div class="program-cards ">
           <img src="<?= base_url(); ?>assets/images/Co-work-Space-icon.svg" alt=">Co-work Space"
             class="image img-fluid">
@@ -105,7 +105,7 @@
     </div>
   </div>
 </section>
-<section id="let-connect" class="let-connect">
+<section id="let-connect" class="let-connect wow fadeInUp" data-wow-delay="0.4s">
   <div class="container">
     <div class="flex-container">
       <p>"Student life is the best time to figure out who you are and what you want to <br>be, while learning to balance
@@ -113,7 +113,7 @@
     </div>
   </div>
 </section>
-<section id="let-connect" class="let-connect1">
+<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-12 col-sm-12">
@@ -127,17 +127,17 @@
     </div>
   </div>
 </section>
-<section id="collaborations" class="collaborations">
-  <div class="container" id="banner-common-design">
-    <div class="flex-container">
+<section id="collaborations" class="collaborations ">
+  <div class="container " id="banner-common-design">
+    <div class="flex-container section-mt wow fadeInUp" data-wow-delay="0.4s">
       <div class="text-content">
-        <h4>Our Collaborations</h4>
-        <p>Life Changing Opportunities for our dear students</p>
+        <h4 class="right-main-header">Our Collaborations</h4>
+        <p class="right-main-para">Life Changing Opportunities for our dear students</p>
       </div>
       <img src="<?= base_url(); ?>assets/images/Collabration-icon.svg" alt="Our Collaborations" class="image img-fluid">
     </div>
   </div>
-  <div class="container mt-5">
+  <div class="container mt-5 mb-5 wow fadeInUp" data-wow-delay="0.6s">
     <div id="our-collaborations-owl-carousel" class="owl-carousel owl-theme">
       <div class="item">
         <img src="<?= base_url(); ?>assets/images/thub-logo.svg" alt="t-hub">
@@ -156,18 +156,18 @@
   </div>
 </section>
 
-<section id="events" class="events mt-5">
+<section id="events" class="events section-mt">
   <div class="container" id="banner-common-design">
-    <div class="flex-container">
+    <div class="flex-container wow fadeInUp" data-wow-delay="0.4s">
       <div class="text-content">
-        <h5>Events Held By Srujan</h5>
-        <p>Life Changing Opportunities for our dear students</p>
+        <h5 class="right-main-header">Events Held By Srujan</h5>
+        <p class="right-main-para">Life Changing Opportunities for our dear students</p>
       </div>
       <a href="#" class="explore-btn-second">Explore</a>
     </div>
   </div>
-  <div class="container mt-5 event-card-a">
-    <div class="row g-4">
+  <div class="container mt-5 event-card-a wow fadeInUp" data-wow-delay="0.6s">
+    <div class="row g-5">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="event-card">
           <img src="<?= base_url(); ?>assets/images/homepage-event.svg" alt="ARAMBH Season-1">
@@ -178,7 +178,7 @@
 
           </div>
           <div class="explore-btn-second">
-            <a href="#">Read more ➤</a>
+            <a href="<?= base_url()?>arambh">Read more ➤</a>
           </div>
         </div>
       </div>

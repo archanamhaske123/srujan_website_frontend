@@ -1,18 +1,19 @@
-<section id="page-header-banner" class="page-header-banner-1">
+<section id="page-header-banner" class="page-header-banner">
   <div class="page-heading header-text banner-content">
     <div class="container">
       <div class="flex-container">
+      <img src="<?= base_url(); ?>assets/images/what-we-do/puzzle-icon.svg" alt="what-we-do Image" class="image img-fluid">
         <div class="text-content">
           <h1>What We Do</h1>
           <p>Developing Entrepreneurial Mindset</p>
         </div>
-        <img src="<?= base_url(); ?>assets/images/what-we-do/puzzle-icon.svg" alt="what-we-do Image" class="image img-fluid">
+       
       </div>
     </div>
   </div>
 </section>
-<section id="what-we-do">
-  <div class="container mt-5">
+<section id="what-we-do" class="section-mt">
+  <div class="container ">
     <div class="timeline">
       <!-- Incubation Services -->
       <div class="timeline-item timeline-left left">

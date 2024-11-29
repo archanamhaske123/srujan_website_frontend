@@ -60,7 +60,7 @@
             </ul>
             <ul class="social-links ">
               <li style="margin-right: 10px; padding-left: 15px;">
-                <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/youtube.svg" alt="Youtube"
+                <a href="mailto:edu@sbup.edu.in" target="_blank"><img src="<?= base_url(); ?>assets/images/mail-logo.svg" alt="Mail"
                     style="width: 20px;" class="img-fluid"></a>
               </li>
               <li style="margin-right: 10px;">
@@ -73,10 +73,10 @@
                   target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin.svg" alt="LinkedIn"
                     style="width: 20px;" class="img-fluid"></a>
               </li>
-              <li style="margin-right: 10px;">
+              <!-- <li style="margin-right: 10px;">
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/twitter.svg" alt="Twitter"
                     style="width: 20px;" class="img-fluid"></a>
-              </li>
+              </li> -->
               <li>
                 <a href="https://www.instagram.com/srujan.edic/" target="_blank"><img
                     src="<?= base_url(); ?>assets/images/Instagram.svg" alt="Instagram" style="width: 20px;"
@@ -129,16 +129,16 @@
           <div class="col-lg-4 col-md-12 col-sm-12">
             <div class="footer-logo">
               <a href="<?= base_url(); ?>">
-                <img src="<?= base_url(); ?>assets/images/Footer-logo.svg" alt="Srujan" class="img-fluid">
+                <img src="<?= base_url(); ?>assets/images/srujan-logo.svg" alt="Srujan" class="img-fluid">
               </a>
             </div>
             <div class="social-icons">
-              <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/youtube01.svg" alt="Youtube" class="img-fluid"></a>
+              <a href="mailto:edu@sbup.edu.in" target="_blank"><img src="<?= base_url(); ?>assets/images/mail-footer-icon.svg" alt="Mail" class="img-fluid"></a>
               <a href="https://www.facebook.com/Srujan.edic?mibextid=ZbWKwL" target="_blank"><img
                   src="<?= base_url(); ?>assets/images/facebook01.svg" alt="Facebook" class="img-fluid"></a>
               <a href="https://www.linkedin.com/company/srujan-entrepreneurship-development-incubation-centre"
                 target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid"></a>
-              <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/twitter01.svg" alt="Twitter" class="img-fluid"></a>
+              <!-- <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/twitter01.svg" alt="Twitter" class="img-fluid"></a> -->
               <a href="https://www.instagram.com/srujan.edic/" target="_blank"><img
                   src="<?= base_url(); ?>assets/images/instagram01.svg" alt="Instagram" class="img-fluid"></a>
             </div>
@@ -205,7 +205,7 @@
           <div class="col-lg-12 footer-copyright text-align-center">
             <p class="text-align-center">Copyright &copy;
               <script>document.write(new Date().getFullYear());</script> Srujan. All Rights Reserved
-              <!-- Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a></p> -->
+              
             </p>
           </div>
         </div>
@@ -222,6 +222,10 @@
   <!-- <script src="<?= base_url(); ?>assets/js/owl-carousel.js"></script> -->
   <!-- <script src="<?= base_url(); ?>assets/js/counter.js"></script> -->
   <script src="<?= base_url(); ?>assets/js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+  new WOW().init();
+</script>
 
 </body>
 
