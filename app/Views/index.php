@@ -7,7 +7,7 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-  <title>Srujan | <?= $PageTitle; ?></title>
+  <title>SrujanHub - Foundation for Entrepreneurship & Incubation | <?= $PageTitle; ?></title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <link rel="canonical" href="<?= current_url() ?>">
@@ -167,7 +167,7 @@
                   <img src="<?= base_url(); ?>assets/images/location-icon.svg" alt="Location Icon" class="img-fluid">
                   <div class="contact-info">
                     <p class="university-name">
-                      SRUJAN-EDIC - SRI BALAJI UNIVERSITY, PUNE (SBUP)
+                       SrujanHub-EDIC - SRI BALAJI UNIVERSITY, PUNE (SBUP)
                     </p>
                     <p>
                       Survey No. 55/2-7, Tathawade,<br>
@@ -204,7 +204,7 @@
           </div>
           <div class="col-lg-12 footer-copyright text-align-center">
             <p class="text-align-center">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> Srujan. All Rights Reserved
+              <script>document.write(new Date().getFullYear());</script>  SrujanHub - Foundation for Entrepreneurship & Incubation. All Rights Reserved
               
             </p>
           </div>
@@ -225,7 +225,38 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
   new WOW().init();
+
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const defaultTab = document.querySelector(".nav-link.active"); // The default active tab
+    const defaultPane = document.querySelector(".tab-pane.active"); // The default active tab pane
+
+    // Get the hash from the URL
+    const hash = window.location.hash;
+
+    // Check if there's a hash and it matches a tab ID
+    if (hash) {
+      const tabButton = document.querySelector(`.nav-link${hash}`); // Find tab button by hash
+      if (tabButton) {
+        // Remove active class from default tab and pane
+        if (defaultTab) defaultTab.classList.remove("active");
+        if (defaultPane) defaultPane.classList.remove("active", "show");
+
+        // Add active class to the target tab button
+        tabButton.classList.add("active");
+
+        // Show corresponding tab pane
+        const targetPane = document.querySelector(tabButton.getAttribute("data-bs-target"));
+        if (targetPane) {
+          targetPane.classList.add("active", "show");
+        }
+      }
+    }
+  });
+</script>
+
+
 
 </body>
 

@@ -40,7 +40,7 @@
         <p>This is the content for the Pre-Incubation tab.</p> -->
         <section class="contact-page section-mt">
           <div class="container">
-            <div class="row program-flex ">
+            <div class="row program-flex  wow fadeInUp" data-wow-delay="0.6s">
               <div class="col-lg-6 col-sm-12 program-padding">
                 <h3>Kick start Program with T-Hub -</h3>
                 <br>
@@ -63,7 +63,7 @@
               </div>
             </div>
 
-            <div class="row program-flex-2 program-mt">
+            <div class="row program-flex-2 program-mt wow fadeInUp" data-wow-delay="0.8s">
               <div class="col-lg-6 col-sm-12  tab-img">
                 <div class="custom-box">
                   <div class="images">
@@ -84,7 +84,7 @@
                   challenges of entrepreneurship and maximize their potential for long-term success.</p>
               </div>
             </div>
-            <div class="row program-flex program-mt">
+            <div class="row program-flex program-mt wow fadeInUp" data-wow-delay="0.10s">
               <div class="col-lg-6 col-sm-12 program-padding">
                 <h3>Entrepreneur Talk – Mr. Dhruvam Thaker - Smart Taxi</h3>
                 <br>
@@ -109,7 +109,7 @@
               </div>
             </div>
 
-            <div class="row  program-flex-2 program-mt">
+            <div class="row  program-flex-2 program-mt wow fadeInUp" data-wow-delay="0.12s">
               <div class="col-lg-6 col-sm-12 tab-img">
                 <div class="custom-box">
                   <div class="images">
@@ -139,7 +139,7 @@
         <section class="section-mt">
           <div class="container">
             <div class="row program-flex">
-              <div class="col-lg-3 col-md-12 col-sm-12">
+              <div class="col-lg-3 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
                 <h6 class="text-center" style="font-size: 35px;">What our Students Say</h6>
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
               </div>
@@ -148,7 +148,7 @@
 
                   <div class="event-item">
                     <section>
-                      <div class="container">
+                      <div class="container wow fadeInUp" data-wow-delay="0.8s">
                         <div class="director-message-container">
 
                           <div class="message-card">
@@ -234,9 +234,9 @@
 
         <section class="faq-section section-mt ">
           <div class="container">
-          <h3 class="text-center">Frequently Asked Questions</h3>
+          <h3 class="text-center wow fadeInUp" data-wow-delay="0.6s">Frequently Asked Questions</h3>
 
-          <div class="accordion mt-3" id="faqAccordion">
+          <div class="accordion mt-3 wow fadeInUp" data-wow-delay="0.8s"  id="faqAccordion">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button d-flex justify-content-between align-items-center" type="button"
@@ -272,9 +272,9 @@
               class="image jstify-text-center">
             <div class="mt-5">
               <h3>Coming Soon</h3>
-              <h6>We’re working on this page</h6>
-
-              <button class="btn btn-primary mt-3">Contact us</button>
+              <h6 class="pb-5">We’re working on this page</h6>
+              <a href="#" class="explore-btn-second">Contact us</a>
+              <!-- <button class="btn btn-primary mt-3">Contact us</button> -->
             </div>
           </section>
         </div>
@@ -282,6 +282,22 @@
     </div>
   </div>
 </section>
+<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4> Join us for your exciting journey!</h4>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+            alt=">Arrow-icon" class="image img-fluid">
+        </a>
+  
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <script>
   $(document).ready(function () {

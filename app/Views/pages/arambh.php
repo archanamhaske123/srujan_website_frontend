@@ -24,7 +24,7 @@
 <section class="event-details section-mt">
   <div class="container">
     <div class="row program-flex">
-      <div class="col-lg-6 col-md-12 col-sm-12 program-padding">
+      <div class="col-lg-6 col-md-12 col-sm-12 program-padding wow fadeInUp" data-wow-delay="0.4s">
         <h3 class="mb-3">Description</h3>
         <p>The day commenced with an energetic registration process with 92 Students team and 59 Start-ups team
           highlighting participants enthusiasm.155 participants presented groundbreaking concepts. The success of the
@@ -35,7 +35,7 @@
           start-ups were recognized with Trophy, and prize money was distributed to honor their exemplary contributions.
         </p>
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12 program-padding">
+      <div class="col-lg-6 col-md-12 col-sm-12 program-padding wow fadeInUp" data-wow-delay="0.4s">
         <div>
           <h3 class="mb-3">Event Location</h3>
           <iframe
@@ -51,12 +51,12 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 col-md-12 col-sm-12 program-padding">
+      <div class="col-lg-6 col-md-12 col-sm-12 program-padding wow fadeInUp" data-wow-delay="0.6s">
         <h3 class="mb-3">Hours</h3>
         <p>Weekday Hours : 7 PM - 10 PM<br> Sunday Hours : 10 AM - 3 PM</p>
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12 program-padding">
-        <div class="tags-container">
+        <div class="tags-container wow fadeInUp" data-wow-delay="0.8s">
           <h3 class="mb-2">Tags</h3>
           <span class="btn-tag">Festival of Start-up 2023</span>
           <span class="btn-tag">Visit to - T-Hub</span>
@@ -79,4 +79,34 @@
     </div>
   </div>
 
+</section>
+<section id="arambh-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 program-padding">
+          <h3 class="mb-3">Glimpses Of Our Events</h3>
+            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-24.svg" class="img-fluid mx-lg-3 my-3">
+            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-25.svg" class="img-fluid mx-lg-3 my-3">
+            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-23.svg" class="img-fluid mx-lg-3 my-3">
+            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-22.svg" class="img-fluid mx-lg-3 my-3 img-2">
+            <iframe width="545" height="319" src="https://www.youtube.com/embed/vWSazkz5_ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4> Join us for your exciting journey!</h4>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+            alt=">Arrow-icon" class="image img-fluid">
+        </a>
+  
+      </div>
+    </div>
+  </div>
 </section>

@@ -16,5 +16,9 @@ $routes->get('/startups', 'Home::startups');
 $routes->get('/programs', 'Home::programs');
 $routes->get('/facilities', 'Home::facilities');
 $routes->get('/arambh','Home::arambh');
+$routes->get('/festival-start-up-2023','Home::startup_2023');
+$routes->get('/event-e-summit','Home::event_e_summit');
+$routes->get('/event-t-hub','Home::event_t_hub');
 $routes->post('/contact-us/save','PageController::contactUsSave');
+
 

@@ -9,7 +9,7 @@
       </div>
    
         <p class="about-banner-p mt-5">
-          <span>SRUJAN - Entrepreneurship Development and Incubation Centre (EDIC)</span> is a hub for nurturing and
+          <span>SrujanHub - Entrepreneurship Development and Incubation Centre (EDIC)</span> is a hub for nurturing and
           supporting start-ups and entrepreneurs. The centre provide a conducive environment, resources, mentoring, and
           networking opportunities to foster the growth and success of innovative ventures.
         </p>
@@ -22,7 +22,7 @@
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12">
           <div class="vision-mission-container">
-            <div class="section vision">
+            <div class="section vision wow fadeInUp" data-wow-delay="0.4s">
               <img src="<?= base_url(); ?>assets/images/about-us/vision-icon.svg" alt="Vision Icon" class="icon">
               <h2>Vision</h2>
               <p>
@@ -32,7 +32,7 @@
               </p>
             </div>
 
-            <div class="section mission">
+            <div class="section mission wow fadeInUp" data-wow-delay="0.4s">
               <img src="<?= base_url(); ?>assets/images/about-us/mission-icon.svg" alt="Mission Icon" class="icon">
               <h2>Mission</h2>
               <p>
@@ -50,7 +50,7 @@
   </div>
 </section> 
 <section id="our-leader" class="our-leader section-mt">
-  <div class="container" id="banner-common-design">
+  <div class="container" id="banner-common-design wow fadeInUp" data-wow-delay="0.4s">
     <div class="flex-container">
       <div class="text-content">
         <h2 class="right-main-header">Our Leaders</h2>
@@ -59,8 +59,8 @@
       <img src="<?= base_url(); ?>assets/images/about-us/leadership-icon.svg" alt="our leader" class="image img-fluid">
     </div>
   </div>
-  <div class="container mentors-container mt-5">
-    <div id="our-collaborations-owl-carousel" class="owl-carousel">
+  <div class="container mentors-container section-content-mt mb-5">
+    <div id="our-collaborations-owl-carousel" class="owl-carousel wow fadeInUp" data-wow-delay="0.6s">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/prof-img.svg" alt="Prof. Paramanandhan Balasubramanian">
@@ -101,7 +101,7 @@
 </section>
 <section id="our-team" class="our-team section-mt">
   <div class="container" id="banner-common-design">
-    <div class="flex-container">
+    <div class="flex-container wow fadeInUp" data-wow-delay="0.4s">
       <div class="text-content">
         <h3 class="right-main-header">Our Team</h3>
         <p class="right-main-para">"Stronger together, achieving more."</p>
@@ -109,15 +109,15 @@
       <img src="<?= base_url(); ?>assets/images/about-us/team-icon.svg" alt="Our Team" class="image img-fluid">
     </div>
   </div>
-  <div class="container mentors-container mt-5">
-    <div id="our-team-owl-carousel" class="owl-carousel">
+  <div class="container mentors-container section-content-mt mb-5">
+    <div id="our-team-owl-carousel" class="owl-carousel wow fadeInUp" data-wow-delay="0.6s">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/paliwal-img.svg" alt="Dr. Manisha Paliwal">
         </div>
         <h3>Dr. Manisha Paliwal</h3>
         <h4>Head,</h4>
-        <p>SRUJAN –EDIC</p>
+        <p>SrujanHub –EDIC</p>
       </div>
       <div class="mentor-card">
         <div class="image-circle">
@@ -125,7 +125,7 @@
         </div>
         <h3>Dr. Nutan Samdani</h3>
         <h4>Associate Professor,</h4>
-        <p>SRUJAN –EDIC</p>
+        <p>SrujanHub –EDIC</p>
       </div>
       <div class="mentor-card">
         <div class="image-circle">
@@ -133,7 +133,7 @@
         </div>
         <h3>Mr. Rajkiran Pund</h3>
         <h4>Assistant Professor & Nodal Officer,</h4>
-        <p>SRUJAN –EDIC</p>
+        <p>SrujanHub –EDIC</p>
       </div>
       <div class="mentor-card">
         <div class="image-circle">
@@ -141,7 +141,7 @@
         </div>
         <h3>Mr. Sunil Chaudhary</h3>
         <h4>OS,</h4>
-        <p>SRUJAN –EDIC</p>
+        <p>SrujanHub –EDIC</p>
       </div>
       <!-- Add more mentor cards as needed -->
     </div>
@@ -149,11 +149,11 @@
 </section>
 <section id="director-msg" class="section-mt">
   <div class="container">
-    <h2 class="title">Director's Message</h2>
+    <h2 class="title wow fadeInUp" data-wow-delay="0.4s">Director's Message</h2>
     <div class="director-message-container">
 
       <div class="message-card">
-        <div class="image-section">
+        <div class="image-section wow fadeInUp" data-wow-delay="0.6s">
           <img src="<?= base_url(); ?>assets/images/about-us/prof-img.svg"
             alt="Prof. Paramanandhan Balasubramanian Director" class="director-image">
           <div class="director-info">
@@ -162,11 +162,11 @@
           </div>
         </div>
 
-        <div class="message-section">
+        <div class="message-section wow fadeInUp" data-wow-delay="0.6s">
           <blockquote class="quote">
             <img src="<?= base_url(); ?>assets/images/about-us/doubleinverted-icon.svg" alt="Start Quote"
               class="quote-icon start-quote">
-            At SRUJAN, we believe in the power of entrepreneurship to drive economic growth, create jobs, and bring
+            At SrujanHub, we believe in the power of entrepreneurship to drive economic growth, create jobs, and bring
             about positive change. Our mission is to provide aspiring entrepreneurs with the resources, guidance, and
             support they need to transform their ideas into thriving businesses. We understand that the journey of
             entrepreneurship can be challenging, but with the right tools and opportunities, every entrepreneur can
@@ -180,5 +180,20 @@
     </div>
   </div>
 
+</section>
+<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4> Join us for your exciting journey!</h4>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+            alt=">Arrow-icon" class="image img-fluid">
+        </a>
+  
+      </div>
+    </div>
+  </div>
 </section>
 

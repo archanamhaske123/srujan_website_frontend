@@ -1,7 +1,7 @@
 <section id="home-page-header-banner" class="mb-5">
   <div class="main-banner">
     <video class="video-banner" autoplay muted loop>
-      <source src="<?= base_url(); ?>assets/images/videoplayback.mp4" type="video/mp4">
+      <source src="<?= base_url(); ?>assets/images/srujan-web-video.mp4" type="video/mp4">
      
     </video>
     <!-- Overlay for gradient effect -->
@@ -28,14 +28,14 @@
         class="image img-fluid">
     </div>
   </div>
-  <div class="container mt-5 program-container-width wow fadeInUp" data-wow-delay="0.4s">
+  <div class="container section-content-mt program-container-width wow fadeInUp" data-wow-delay="0.4s">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="program-cards program-cards-1 wow fadeInUp" data-wow-delay="0.6s">
 
           <h3>Pre-Incubation Programs</h3>
           <p>Empowering Ideas for Future Innovations</p>
-          <a href="#" class="explore-btn-second">Explore</a>
+          <a href="<?= base_url()?>programs/#pre-incubation-tab" class="explore-btn-second">Explore</a>
 
         </div>
       </div>
@@ -44,7 +44,7 @@
 
           <h3>Incubation Programs</h3>
           <p>Transforming Concepts into Successful Ventures</p>
-          <a href="#" class="explore-btn-second">Explore</a>
+          <a href="<?= base_url()?>programs/#incubation-tab" class="explore-btn-second">Explore</a>
 
         </div>
       </div>
@@ -59,10 +59,10 @@
         <h3 class="right-main-header">Facilities</h3>
         <p class="right-main-para">Life Changing Opportunities for our dear students</p>
       </div>
-      <a href="#" class="explore-btn-second">Explore</a>
+      <a href="<?= base_url(); ?>facilities" class="explore-btn-second">Explore</a>
     </div>
   </div>
-  <div class="container mt-5">
+  <div class="container section-content-mt">
     <div class="row" style="margin: 0px;">
       <div class="col-lg-4 col-md-4 col-sm-12 program-cards-2 wow fadeInUp" data-wow-delay="0.6s" style="margin: 0px; padding: 0px;">
         <div class="program-cards">
@@ -120,9 +120,10 @@
         <h4> Join us for your exciting journey!</h4>
       </div>
       <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
-        <a href="#"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
             alt=">Arrow-icon" class="image img-fluid">
         </a>
+  
       </div>
     </div>
   </div>
@@ -137,7 +138,7 @@
       <img src="<?= base_url(); ?>assets/images/Collabration-icon.svg" alt="Our Collaborations" class="image img-fluid">
     </div>
   </div>
-  <div class="container mt-5 mb-5 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container section-content-mt  mb-5 wow fadeInUp" data-wow-delay="0.6s">
     <div id="our-collaborations-owl-carousel" class="owl-carousel owl-theme">
       <div class="item">
         <img src="<?= base_url(); ?>assets/images/thub-logo.svg" alt="t-hub">
@@ -160,13 +161,13 @@
   <div class="container" id="banner-common-design">
     <div class="flex-container wow fadeInUp" data-wow-delay="0.4s">
       <div class="text-content">
-        <h5 class="right-main-header">Events Held By Srujan</h5>
+        <h5 class="right-main-header">Events Held By SrujanHub </h5>
         <p class="right-main-para">Life Changing Opportunities for our dear students</p>
       </div>
-      <a href="#" class="explore-btn-second">Explore</a>
+      <a href="<?= base_url(); ?>events" class="explore-btn-second">Explore</a>
     </div>
   </div>
-  <div class="container mt-5 event-card-a wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container section-content-mt bt-event-content event-card-a wow fadeInUp" data-wow-delay="0.6s">
     <div class="row g-5">
       <div class="col-lg-4 col-md-12 col-sm-12">
         <div class="event-card">
@@ -192,7 +193,7 @@
 
           </div>
           <div class="explore-btn-second">
-            <a href="#">Read more ➤</a>
+            <a href="<?= base_url()?>festival-start-up-2023">Read more ➤</a>
           </div>
         </div>
       </div>

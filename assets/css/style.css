@@ -49,7 +49,7 @@ default CSS
   --highlight-color: linear-gradient(45deg, var(--primary-color), var(--secondary-color) 80%);
   --font-family: 'Poppins', sans-serif;
   --boder-color: #898989;
-  --mentor-p-color: #495057;
+  --third-color: #495057;
   /* --fourth-color: #D80075; */
   /* --para-text-color: #4A4A4A;
   --heading-text-color: #161c2d;
@@ -201,7 +201,7 @@ ul {
 }
 
 p {
-  font-size: 0.875rem;
+  font-size: 1rem;
   /* 14px */
   line-height: 1.75rem;
   /* 28px */
@@ -234,13 +234,13 @@ body {
   color: var(--white);
 }
 
-.section {
-  margin-top: 7.5rem;
+.section-content-mt {
+  margin-top: 5rem !important;
   /* 120px */
 }
 
 .section-mt {
-  margin-top: 7rem; /*112px*/
+  margin-top: 10rem; /*112px*/
 }
 
 .section-heading {
@@ -685,7 +685,7 @@ header {
   line-height: 100px;
   font-size: 28px;
   text-transform: uppercase;
-  color: #1e1e1e;
+  color: var(--third-color);
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -982,7 +982,7 @@ Banner Style
 
 .main-banner .item span.category {
   background-color: var(--white);
-  color: #1e1e1e;
+   color: var(--third-color);;
   font-size: 1rem;
   font-weight: 500;
   text-transform: capitalize;
@@ -1081,18 +1081,20 @@ width: 60%;
 #facilities .text-content,
 #collaborations .text-content,
 #events .text-content {
-  margin-right: 20px;
+  margin-right: 30px;
   border-right: 2px solid var(--primary-color);
   padding-right: 20px;
-  width: 30%;
+  width: 40%;
+  padding: 0px 40px;
 }
 
 #our-leader .text-content,
 #our-team .text-content {
-  margin-right: 20px;
+  margin-right: 30px;
   border-right: 2px solid var(--secondary-color);
   padding-right: 20px;
-  width: 30%;
+  width: 40%;
+  padding: 0px 40px;
 }
 
 #page-header-banner .flex-container,
@@ -1270,12 +1272,12 @@ Home Page Style
 .collaborations h2 {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  color: var(--third-color);
 }
 
 .collaborations p {
   font-size: 16px;
-  color: #777;
+  color: var(--third-color);
   margin-bottom: 20px;
 }
 .owl-carousel {
@@ -1307,7 +1309,7 @@ Home Page Style
   /* Allow clicking */
   opacity: 1;
   /* Make it fully visible */
-  color: #333;
+  color: var(--third-color);
   /* Adjust as needed */
   cursor: pointer;
 }
@@ -1353,7 +1355,7 @@ Home Page Style
 
 .collaborations .item span.category {
   background-color: #fff;
-  color: #1e1e1e;
+  color: var(--third-color);
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
@@ -1449,10 +1451,12 @@ Home Page Style
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 80%;
+  /* width: 80%; */
   /* Ensures cards stretch equally */
 }
-
+.event-card-a{
+  width: 70%;
+}
 #events .event-card h5 {
   font-size: 20px !important;
   color: var(--third-color);
@@ -1510,6 +1514,9 @@ Home Page Style
   font-size: 1rem;
   /* Font size */
 }
+.bt-event-content{
+  margin-bottom: 150px !important;
+}
 
 
 /* 
@@ -1533,9 +1540,9 @@ our leadersection style
 }
 
 #mentors h3 {
-  font-size: 24px !important;
+  font-size: 20px !important;
   margin-bottom: 18px;
-  color: var(--mentor-p-color);
+  color: var(--third-color);
 }
 
 .our-leader .mentors-container h3,
@@ -1564,7 +1571,7 @@ our leadersection style
 
 #mentors p {
   font-size: 16px !important;
-  color: var(--mentor-p-color);
+  color: var(--third-color);
   margin-bottom: 30px;
   text-align: center;
   /* text-align-last: center !important; */
@@ -1781,7 +1788,7 @@ About Us Page Style
   padding: 70px;
   border-radius: 8px;
   width: 100%;
-  box-shadow: 0 4px 8px rgba(51, 51, 51, 0.5);
+  box-shadow: none;
 }
 #director-msg .message-card {
   display: flex;
@@ -1799,9 +1806,9 @@ About Us Page Style
   justify-content: center;
   align-items: center;
 }
-#director-msg  .director-image {
+/* #director-msg  .director-image {
   width: 50%;
-}
+} */
 
 .quote-icon {
   vertical-align: top;
@@ -2004,6 +2011,43 @@ What We Do Page Style
 Event Style
 --------------------------------------------- 
 */
+
+.event-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  border-radius: 10px;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+#arambh-img .img-2{
+  vertical-align: top!important;
+}
+.event-section h1 {
+  color: #fff;
+    
+} 
+ #arambh .explore-btn-second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0!important;
+} 
+ .tags-container {
+  width: 392px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  overflow: hidden; 
+  background-color: #fff;
+}
+
+
+
 .event-section {
   background-size: cover;
   background-position: center;
@@ -2025,7 +2069,7 @@ Event Style
   height: 305px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: flex-start;
   overflow: hidden; /* Prevent content overflow */
   background-color: #fff; /* Background color */
@@ -2129,6 +2173,35 @@ Event Style
   margin: 0 auto;
 }
 
+.events-page-content-section .event-content-2,
+.events-page-content-section .event-content-1{
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+}
+.events-page-content-section .event-content-2 a{
+  margin: 0px;
+}
+.events-page-content-section .event-content-1 p,
+.events-page-content-section .event-content-2 p{
+  padding: 30px 0px;
+}
+.events-page-content-section .event-content-1 .btn-container {
+  margin-top: auto;
+  text-align: right; 
+}
+.events-page-content-section .event-content-2 .btn-container {
+  margin-top: auto;
+  text-align: left; 
+}
+.events-page-content-section .program-flex-2 .tab-img{
+display: flex;
+justify-content: flex-end;
+}
+
+
+
+
 /* 
 ---------------------------------------------
 Contact Style
@@ -2174,7 +2247,7 @@ Contact Style
   /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
   text-align: center;
   width: 100%;
-  margin: 30px;
+  margin:0px 30px;
 
 }
 
@@ -2359,8 +2432,7 @@ Contact Style
 program Style
 --------------------------------------------- 
 */
-#program .tab-img,
-.event-section .tab-img{
+#program .tab-img {
   display: flex;
   justify-content: center;
 }
@@ -2498,7 +2570,7 @@ program Style
   transition: color 0.3s, border-bottom 0.3s; 
 }
 #program .nav-tabs .nav-link.active {
-  color: var(--third-color); 
+  color: var(--primary-color); 
   border-bottom: 4px solid #FF6600; 
 }
 #program  .tab-content {
@@ -2664,7 +2736,7 @@ Contact Page Style
 }
 
 .contact-page p {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .contact-page .item {
@@ -2700,10 +2772,10 @@ Contact Page Style
 
 .contact-page #contact-form {
   margin-left: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  padding: 35px 30px;
-  background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 35px 30px;
+    background-color: transparent;
 }
 
 .contact-page #contact-form label {
@@ -2765,23 +2837,23 @@ Contact Page Style
 
 
 .contact-page #contact-form button {
-  background-color: #1e1e1e;
-  height: 44px;
-  border-radius: 22px;
+  background: transparent;
   padding: 0px 20px;
   color: var(--white);
   border: none;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   transition: all .5s;
 }
 
-.contact-page #contact-form button:hover {
+/* .contact-page #contact-form button:hover {
   background-color: var(--primary-color);
+} */
+
+
+#contact-form .explore-btn-second {
+  margin-left: 0;
 }
-
-
-
 
 /*
 ---------------------------------------------
@@ -2794,7 +2866,7 @@ footer.footer-no-gap {
 }
 
 footer {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   /* background-color: #1e1e1e; */
   min-height: 100px;
 }
@@ -3057,7 +3129,9 @@ body {
  Header Section
 --------------------------------------------- 
 */
-
+ .container {
+  width: 90% !important;
+}
   .background-header .main-nav,
   .header-area .main-nav {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
@@ -3148,7 +3222,7 @@ body {
   .header-area .container {
     padding: 0px;
     margin: 0px;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .header-area .logo {
@@ -3359,7 +3433,7 @@ Common Banner Section
 --------------------------------------------- 
 */
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -3550,7 +3624,19 @@ Programs Page
 Events Page
 --------------------------------------------- 
 */
+.events-page-content-section .program-flex-2 .tab-img,
+.events-page-content-section .program-flex .tab-img {
+  display: flex;
+  justify-content: center;
+}
 
+.events-page-content-section .event-content-2, .events-page-content-section .event-content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
   /* 
 ---------------------------------------------
 Contact UsPage
@@ -3819,6 +3905,18 @@ Startups Page
 Events Page
 --------------------------------------------- 
 */
+.events-page-content-section .program-flex-2 .tab-img,
+.events-page-content-section .program-flex .tab-img {
+  display: flex;
+  justify-content: center;
+}
+.events-page-content-section .event-content-2, .events-page-content-section .event-content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 
   /* 
 ---------------------------------------------

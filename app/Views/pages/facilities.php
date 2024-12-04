@@ -19,7 +19,7 @@
       <!-- Left Column -->
       <div class="col-lg-6 col-md-12 col-sm-12 border-line-right">
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
             <div class="startup-card">
               <img src="<?= base_url(); ?>assets/images/facilities/conference-room.svg" alt="Conference Room"
                 class="facilities-img-even img-fluid ">
@@ -28,7 +28,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
             <div class="startup-card">
               <img src="<?= base_url(); ?>assets/images/facilities/computer-lab.svg" alt="Computer Lab"
                 class="facilities-img-even img-fluid ">
@@ -37,7 +37,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
             <div class="startup-card">
               <img src="<?= base_url(); ?>assets/images/facilities/VIP-Lounge.svg" alt="VIP Lounge"
                 class="facilities-img-even img-fluid ">
@@ -52,7 +52,7 @@
       <!-- Right Column -->
       <div class="col-lg-6 col-md-12 col-sm-12">
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
             <div class="startup-card">
               <img src="<?= base_url(); ?>assets/images/facilities/Auditorium.svg" alt="Auditorium"
                 class="facilities-img-odd img-fluid ">
@@ -61,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
             <div class="startup-card">
               <img src="<?= base_url(); ?>assets/images/facilities/class-room.svg" alt="Class Room"
                 class="facilities-img-odd img-fluid ">
@@ -70,7 +70,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
             <div class="startup-card">
               <img src="<?= base_url(); ?>assets/images/facilities/Co-Working-Space.svg" alt="Co-Working Space"
                 class="facilities-img-odd img-fluid ">
@@ -80,6 +80,21 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4> Join us for your exciting journey!</h4>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+            alt=">Arrow-icon" class="image img-fluid">
+        </a>
+  
       </div>
     </div>
   </div>

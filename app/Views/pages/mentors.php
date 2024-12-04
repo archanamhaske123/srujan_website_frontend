@@ -12,9 +12,9 @@
   </div>
 </section>
 <section id="mentors" class="mentors section-mt">
-  <div class="container mt-5">
+  <div class="container">
     <div class="row" style="margin: 0px;">
-      <div class="col-lg-4 col-md-6 col-sm-12 " style="margin: 0px; padding: 0px;">
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s" style="margin: 0px; padding: 0px;">
         <div class="mentor-card">
         <div class="image-circle">
                   <img src="<?= base_url(); ?>assets/images/mentors/piyush-bhan.svg" alt="Mr. Piyush Bhan">
@@ -24,7 +24,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -35,7 +35,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.4s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -46,7 +46,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -58,7 +58,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -70,7 +70,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -81,7 +81,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -92,7 +92,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -103,7 +103,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -114,7 +114,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.7s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -125,7 +125,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.7s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -136,7 +136,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.7s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -149,7 +149,7 @@
                   <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.8s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -160,7 +160,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.8s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -174,7 +174,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.8s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -186,7 +186,7 @@
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.9s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -198,7 +198,7 @@
                   <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid" style="width: 35px;"></a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="0.9s">
         
             <div class="mentor-card">
                 <div class="image-circle">
@@ -214,3 +214,19 @@
     </div>
   </div>
 </section>
+<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4> Join us for your exciting journey!</h4>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+            alt=">Arrow-icon" class="image img-fluid">
+        </a>
+  
+      </div>
+    </div>
+  </div>
+</section>
+

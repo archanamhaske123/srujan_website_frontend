@@ -11,10 +11,10 @@
     </div>
   </div>
 </section>
-<section class="contact-page section">
+<section class="contact-page section-mt">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
         <div class=" text-center heading ">
           <h2>Embark on this adventure with us</h2>
           <p>Let's explore our options for collaboration</p>
@@ -22,9 +22,9 @@
           <!-- <img src="<?= base_url() ?>assets/images/contact/Contactus-scroller.svg" alt="Address Icon" class="icon"> -->
         </div>
       </div>
-      <section id="contact-carousel" class="contact-carousel">
+      <section id="contact-carousel" class="contact-carousel wow fadeInUp" data-wow-delay="0.8s">
 
-        <div class="container mt-5">
+        <div class="container">
           <div id="contact-owl-carousel" class="contact-carousel-1 owl-carousel owl-theme ">
 
             <div class="item">
@@ -68,24 +68,24 @@
     </div>
   </div>
 </section>
-<section class="contact-page section">
+<section class="contact-page section-mt" id="contact-section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12  mb-5 pb-5">
+      <div class="col-lg-12  mb-5 pb-5 wow fadeInUp" data-wow-delay="0.6s">
         <div class="text-center heading">
           <h2>Reach Out and Touch Base</h2>
         </div>
       </div>
       <div id="contact-card">
-        <div class="row mb-5 pb-5 ">
-          <div class="col-lg-4">
+        <div class="row mb-5 pb-5">
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
             <div class="program-cards-c program-cards-1-c">
               <img src="<?= base_url() ?>assets/images/contact/address-icon.svg" alt="Address Icon" class="icon">
               <h3>Address</h3>
               <p>Survey No. 55/2-7, Tathawade, Off Mumbai-Bangalore Bypass, Pune – 411033, Maharashtra, India.</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
             <div class="program-cards-c program-cards-1-c">
               <img src="<?= base_url() ?>assets/images/contact/Call-icon.svg" alt="Address Icon" class="icon">
               <h3>Contact</h3>
@@ -93,7 +93,7 @@
               <a href="tel:02066741252"> 02066741252</a>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.8s">
             <div class="program-cards-c program-cards-1-c">
               <img src="<?= base_url() ?>assets/images/contact/mail-icon.svg" alt="Address Icon" class="icon">
               <h3>Email</h3>
@@ -112,7 +112,7 @@
             allowfullscreen=""></iframe>
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-6" i>
         <form id="contact-form" action="<?= base_url() ?>contact-us/save" method="POST" method="post">
           <div class="row">
             <div class="col-lg-6">
@@ -168,8 +168,11 @@
             </div>
             <div id="alertPlaceholder"></div>
             <div class="col-lg-12">
-              <fieldset>
-                <button type="submit" id="form-submit" class="orange-button">Send Message</button>
+            <!-- <div class="explore-btn-second">
+            <a href="<?= base_url()?>festival-start-up-2023">Read more ➤</a>
+          </div> -->
+              <fieldset  class="explore-btn-second">
+                <button type="submit" id="form-submit">Send Message</button>
               </fieldset>
             </div>
           </div>
@@ -184,6 +187,22 @@
   </div>
   </div>
 </section>
+<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h4> Join us for your exciting journey!</h4>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 let-mt-30">
+        <a href="<?= base_url(); ?>contact-us/#contact-section"><span>Let’s Connect?</span> <img src="<?= base_url(); ?>assets/images/Arrow-icon.svg"
+            alt=">Arrow-icon" class="image img-fluid">
+        </a>
+  
+      </div>
+    </div>
+  </div>
+</section>
+
 <script>
   $(document).ready(function () {
     $(document).ready(function () {
