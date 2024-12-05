@@ -1,9 +1,9 @@
 <div class="container">
   <!-- Header Section -->
-<section class="section-mt" id="festival-start-up">
+<section class="mt-5" id="festival-start-up">
   <div id="start_up" class="custom-class  event-section" style="background-image: url('<?= base_url()?>/assets/images/events/e-summit/IIT-Bombay-2024 – E-Summit.svg');">
     <div class="col-lg-12 col-md-12 col-sm-12 program-padding">
-      <h1>IIT Bombay 2024 - E-Summit</h1>
+      <h1>IIT Bombay 2024 E-Summit</h1>
       <p style="color: white!important">(Feb 3-4) is Asia’s largest business conclave, featuring 50,000+ attendees, 1,000+ startups, and 150+ industry leaders. It’s a hub for networking, innovation, and entrepreneurial growth</p>
     </div>
   </div>
@@ -20,8 +20,8 @@
           <div class="tags-container mt-3 wow fadeInUp" data-wow-delay="0.4s">
             <h3 class="mb-2">Tags</h3>
             <span class="btn-tag">Festival of Start-up 2023</span>
-            <span class="btn-tag">Visit to - T-Hub</span>
-            <span class="btn-tag">IIT Bombay 2024 – E-Summit</span>
+            <span class="btn-tag">Visit to T-Hub</span>
+            <span class="btn-tag">IIT Bombay 2024 E-Summit</span>
           </div>
         </div>
     </div>

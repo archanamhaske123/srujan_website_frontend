@@ -21,7 +21,7 @@
       <div class="col-lg-6 col-md-12 tab-img">
         <img src="<?= base_url()?>assets/images/events/aarambh-seassion-image.svg" alt="Event Icon" class="img-fluid">
       </div>
-      <div class="col-lg-6 col-md-12 program-padding event-content-1">
+      <div class="col-lg-6 col-md-12 program-padding-1 event-content-1">
         <h2>National Level Entrepreneurship Competition: ARAMBH Season-1</h2>
         <p>ARAMBH Season 1, the National Level Entrepreneurship Competition hosted by Srujan EDIC at Sri Balaji University, Pune, on January 10th 2024, proved to be a resounding success, fostering innovation and collaboration.</p>
         <div class="btn-container">
@@ -33,7 +33,7 @@
 
     <!-- Event 2 -->
     <div class="row  program-flex-2 mt-5 wow fadeInUp" data-wow-delay="0.6s">
-      <div class="col-lg-6 col-md-12 program-padding event-content-2">
+      <div class="col-lg-6 col-md-12 program-padding-2 event-content-2">
         <h2>Festival of Start-up 2023</h2>
         <p>The preliminary round of the Festival of Startup - 2023, organized by Pimpri Chinchwad Startup Incubation Center (PCSIC), took place on September 4, 2023, at Sri Balaji University Pune.</p>
           <div class="btn-container">
@@ -51,8 +51,8 @@
       <div class="col-lg-6 col-md-12 tab-img ">
         <img src="<?= base_url()?>assets/images/events/iit-bombay-img.svg" alt="Event Icon" class="img-fluid">
       </div>
-      <div class="col-lg-6 col-md-12 program-padding event-content-1">
-        <h2>IIT Bombay 2024 - E-Summit</h2>
+      <div class="col-lg-6 col-md-12 program-padding-1 event-content-1">
+        <h2>IIT Bombay 2024 E-Summit</h2>
         <p>Srujan Entrepreneurship development and Incubation Center was privileged to participate in the prestigious IIT Bombay E-Summit as an incubator partner.</p>
         <div class="btn-container">
               <a href="<?= base_url()?>event-e-summit" class="explore-btn-second openModal" >Read More</a>
@@ -62,8 +62,8 @@
 
     <!-- Event 4 -->
     <div class="row program-flex-2 mt-5 wow fadeInUp" data-wow-delay="0.10s">
-      <div class="col-lg-6 col-md-12 program-padding event-content-2">
-        <h2>Visit to - T-Hub</h2>
+      <div class="col-lg-6 col-md-12 program-padding-2 event-content-2">
+        <h2>Visit to T-Hub</h2>
         <p>Mr. Chetan Kavitake, Innovation Manager at T-Hub, invited the selected students of SBUP to T-Hub on Friday, 5th April 2024 for orientation and briefing of Blitz program.</p>
        
         <div class="btn-container">

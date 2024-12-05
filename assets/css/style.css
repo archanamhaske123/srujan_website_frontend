@@ -1846,11 +1846,23 @@ Startup Page Style
 */
 #startup-section .startup-card {
   display: flex;
-  align-items: center;
-  margin-bottom: 10%;
-  margin-left: 80px;
+    align-items: start;
+    margin-bottom: 10%;
+    margin-left: 80px;
+    width: 80%;
+    padding: 30px 80px;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 78, 152, 0.3);
+    justify-content: start;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
 }
 
+#startup-section .startup-card:hover {
+  transform: translateY(-10px); /* Slide up effect */
+  box-shadow: 0 4px 10px rgba(0, 78, 152, 0.5); /* Enhance shadow on hover */
+}
 #startup-section.startup-card img {
   width: 40%;
   /* Adjust logo size */
@@ -1860,8 +1872,14 @@ Startup Page Style
 }
 
 #startup-section .startup-card .startup-description {
+  /* margin: 0;
+  margin-left: 20px; */
   margin: 0;
-  margin-left: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #startup-section .startup-card .startup-sub-title {
@@ -1876,33 +1894,145 @@ Startup Page Style
   max-width: 1200px;
   margin: 0 auto;
 }
+.popup-container {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 1000px;
+  position: relative;
+}
+
+.image-circle {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup-image {
+max-width: 100%;
+height: auto;
+margin-bottom: 0px;
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 50%;
+background: var(--white);
+padding: 4px;
+clip-path: circle(50%);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+.popup-container .social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  /* margin-top: 15px; */
+  align-items: center;
+  align-content: center;
+}
+#popup-title{
+  padding: 20px;
+}
+
+
+
 /* 
 ---------------------------------------------
 Facilities Page Style
 ---------------------------------------------
 */
+/* Base Styles */
 #startup-section .facilities .startup-card {
-  display: flex;
-  margin-bottom: 0%;
-  margin-left: 0px;
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  height: 400px;
+  width: 600px;
+  background: transparent no-repeat center center / cover; /* Ensures image covers the card */
+  box-shadow: none;
+  overflow: hidden;
+  cursor: pointer;
   margin-top: 40px;
+  padding: 0px;
+}
 
-}
-#startup-section .startup-card .startup-description {
-  margin: 30px;
-  margin-left: 20px;
-}
-#startup-section .startup-card .facilities-img-even{
+#startup-section .facilities-img-even {
   border-top-left-radius: 90px;
-    border-bottom-right-radius: 90px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius: 0px;
 }
-#startup-section .startup-card .facilities-img-odd{
+
+#startup-section .facilities-img-odd {
   border-top-right-radius: 90px;
   border-bottom-left-radius: 90px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.startup-overlay {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  padding: 10px;
+  color: #fff;
+  background-color: rgba(27, 27, 27, 0.5);
+  transition: height 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+.startup-card:hover .startup-overlay {
+  height: 400px;
+  bottom: 0;
+  background-color: rgba(27, 27, 27, 0.5);
+}
+
+.startup-card:hover .description-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.startup-card-h2 {
+  margin: 10px 0 5px;
+  font-size: 2rem;
+  text-align: center;
+  color:var(--white);
+}
+
+.description-text {
+  font-size: 1rem;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  color:var(--white);
+  transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
 }
 /* .row {
   display: flex;
@@ -2453,7 +2583,12 @@ program Style
 .program-padding{
   padding: 10px 70px 40px 70px;
 }
-
+.program-padding-2{
+  padding: 10px 70px 40px 0px;
+}
+.program-padding-1 {
+  padding: 10px 0px 40px 70px;
+}
 .owl-theme .owl-nav {
   margin-top: 23% !important; 
 }
@@ -2580,13 +2715,12 @@ program Style
 }
 #program  .custom-box {
   position: relative;
-  width: 300px; 
-  height: 200px;
+  width: 412px; 
+  height: 290px;
   background-color: #FF6600; 
- 
   background-size: cover;
   background-position: center;
-  border-radius: 15px; 
+  border-radius: 60px; 
   overflow: visible; 
 }
 
@@ -2606,17 +2740,17 @@ program Style
 
 /* Top image - half inside, half outside */
 #program  .top-img {
-  top: -85px;
-  left: 10%;
-  transform: translateX(-50%);
+  top: -35px;
+  left: 25%;
+ transform: translateX(-50%);
   z-index: 1;
 }
 
 /* Bottom image - half inside, half outside */
 #program  .bottom-img {
-  bottom: -75px;
-  left: 85%; 
-  transform: translateX(-50%); 
+  bottom: -30px;
+  left: 75%;
+transform: translateX(-50%); 
   z-index: 2; 
 }
 /* Top image - half inside, half outside */
@@ -2642,8 +2776,8 @@ program Style
 }
 /* Top image - half inside, half outside */
 .top-img-2 {
-  top: -85px; /* Moves the image 50px above the container */
-  left: 10%; /* Centers the image horizontally */
+  top: -35px; /* Moves the image 50px above the container */
+  left: 25%; /* Centers the image horizontally */
   transform: translateX(-50%); /* Centers the image */
   z-index: 2; /* Ensures the top image is above the bottom one */
   border: 5px solid #fff !important; /* White border */
@@ -2653,8 +2787,8 @@ program Style
 
 /* Bottom image - half inside, half outside */
 .bottom-img-2 {
-  bottom: -75px; /* Moves the image 50px below the container */
-  left: 85%; /* Centers the image horizontally */
+  bottom: -30px; /* Moves the image 50px below the container */
+  left: 77%; /* Centers the image horizontally */
   transform: translateX(-50%); /* Centers the image */
   z-index: 1; /* Ensures the bottom image is below the top one */
   border: 5px solid #fff !important; /* White border */
@@ -2701,12 +2835,12 @@ program Style
   height: 115px;
   }
   #program .top-img {
-    top: -40px;
-    left: 15%;
+    top: -35px;
+    left: 25%;
   }
   #program .bottom-img {
-    bottom: -40px;
-    left: 90%;
+    bottom: -30px;
+    left: 75%;
     transform: translateX(-50%);
     z-index: 2;
 } 
@@ -2718,7 +2852,6 @@ program Style
   padding: 0px;
 }
 }
-
 
 /* 
 ---------------------------------------------
@@ -3129,8 +3262,9 @@ body {
  Header Section
 --------------------------------------------- 
 */
- .container {
+ .container,.fluid-container {
   width: 90% !important;
+  max-width: 1600px !important;
 }
   .background-header .main-nav,
   .header-area .main-nav {
@@ -3326,6 +3460,10 @@ body {
   .social-icons {
     gap: 7px;
   }
+  .footer-logo {
+  
+    margin-top: 0px;
+}
 
   /* 
 ---------------------------------------------
@@ -3340,6 +3478,7 @@ Home Page
     border-right: 0px;
     padding-right: 0px;
     width: 100% !important;
+    padding: 0px 0px;
   }
 
   /* #programs-we-offer p,
@@ -3359,6 +3498,7 @@ Home Page
 }
 .right-main-header {
   text-align: center;
+  margin-top: 20px;
 }
 .event-card {
   width: 100%;
@@ -3387,7 +3527,7 @@ Home Page
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
 
   }
 
@@ -3427,15 +3567,13 @@ Home Page
     margin-top: 200px;
   }
 
+
   /* 
 ---------------------------------------------
 Common Banner Section
 --------------------------------------------- 
 */
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
+
 
   #page-header-banner .banner-content {
     margin-top: 120px !important;
@@ -3477,7 +3615,21 @@ Common Banner Section
   .vision-mission-section .vision-mission-container h2 {
     text-align: center;
   }
-
+  #page-header-banner .text-content p {
+    text-align: center;
+}
+#page-header-banner .text-content h1 {
+  text-align: center;
+  margin: 10px 0px;
+}
+#page-header-banner .image {
+  margin-right: 0px;
+  border-right: 0px;
+  padding-right: 0px;
+}
+.about-page-bg .page-heading {
+  height: 600px !important;
+}
 
   /* 
 ---------------------------------------------
@@ -3500,7 +3652,7 @@ About US  Page
     /* padding: 50px; */
     /* text-align: center; */
     width: 100%;
-    margin: 30px;
+    margin: 0px;
   }
 
   .title {
@@ -3509,6 +3661,26 @@ About US  Page
     text-align: center;
     margin-bottom: 20px;
   }
+  .vision-mission-section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .vision-mission-section .section {
+    margin-top: 3rem !important;
+  }
+  #our-leader .text-content, #our-team .text-content {
+    padding: 0px 0px;
+}
+#director-msg .director-message-container {
+  padding: 20px;
+}
+#director-msg .quote {
+  text-align: left;
+  padding: 10px 0px 10px 0px;
+}
 
   /* 
 ---------------------------------------------
@@ -3582,7 +3754,8 @@ Startups Page
   #startup-section .startup-card {
     display: flex;
     align-items: center;
-    margin: 40px;
+    margin-left: 0px;
+    width: 100%;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -3595,6 +3768,7 @@ Startups Page
   .border-line-right {
     border-right: none;
   }
+
 
   /* 
 ---------------------------------------------
@@ -3836,7 +4010,7 @@ About US  Page
     width: 100%;
     margin: 30px 0px;
   }
-
+ 
   /* 
 ---------------------------------------------
 Mentors Page
@@ -4106,6 +4280,7 @@ Contact UsPage
 @media (max-width: 1024px) and (max-height: 600px) {
   .container {
     width: 95%;
+    
     /* Adjust as needed */
   }
 
@@ -4149,7 +4324,7 @@ Contact UsPage
   .container-lg,
   .container-md,
   .container-sm,
-  .container-xl {
+  .container-xl{
     max-width: 1600px;
   }
 }
@@ -4161,7 +4336,7 @@ Contact UsPage
   .container-md,
   .container-sm,
   .container-xl,
-  .container-xxl {
+  .container-xxl{
     max-width: 1600px !important;
   }
 

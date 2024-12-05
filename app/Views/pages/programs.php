@@ -42,7 +42,7 @@
           <div class="container">
             <div class="row program-flex  wow fadeInUp" data-wow-delay="0.6s">
               <div class="col-lg-6 col-sm-12 program-padding">
-                <h3>Kick start Program with T-Hub -</h3>
+                <h3>Kick start Program with T-Hub</h3>
                 <br>
                 <p>Kick start Program organize by SRUJAN-EDIC denotes a structured initiative aimed at nurturing and
                   supporting early-stage startups & entrepreneurial ventures.
@@ -75,7 +75,7 @@
                 </div>
               </div>
               <div class="col-lg-6 col-sm-12 program-padding">
-                <h3>SET Session with Bhau Institute –</h3>
+                <h3>SET Session with Bhau Institute</h3>
                 <br>
                 <p>SET- Student Entrepreneurship Training organize by SRUJAN-EDIC represents a structured period of
                   intense support and resources aimed at accelerating the development and success of early-stage

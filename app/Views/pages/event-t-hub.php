@@ -1,9 +1,9 @@
 <div class="container">
   <!-- Header Section -->
-<section class="section-mt" id="festival-start-up">
+<section class="mt-5" id="festival-start-up">
   <div id="start_up" class="custom-class  event-section" style="background-image: url('<?= base_url()?>/assets/images/events/e-summit/IIT-Bombay-2024 – E-Summit.svg');">
     <div class="col-lg-12 col-md-12 col-sm-12 program-padding">
-      <h1>Visit to - T-Hub</h1>
+      <h1>Visit to T-Hub</h1>
       <p style="color: white!important">India’s premier innovation hub, fostering startup growth through mentorship, funding, and collaborative opportunities. Ideal for entrepreneurs and businesses seeking to innovate and scale.</p>
     </div>
   </div>
@@ -20,8 +20,8 @@
           <div class="tags-container mt-3">
             <h3 class="mb-2">Tags</h3>
             <span class="btn-tag">Festival of Start-up 2023</span>
-            <span class="btn-tag">Visit to - T-Hub</span>
-            <span class="btn-tag">IIT Bombay 2024 – E-Summit</span>
+            <span class="btn-tag">Visit to T-Hub</span>
+            <span class="btn-tag">IIT Bombay 2024 E-Summit</span>
           </div>
         </div>
     </div>

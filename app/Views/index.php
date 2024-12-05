@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/animate.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>

@@ -1,7 +1,7 @@
 <!-- Page Layout for National Level Entrepreneurship Competition -->
 
 <!-- Header Section -->
-<section class="section-mt">
+<section class="mt-5">
   <div class="container">
     <div id="arambh" class="row event-section program-flex  banner-content"
       style="background-image: url('<?= base_url() ?>/assets/images/events/National-Level-Entrepreneurship-Competition-ARAMBH-Season-2.svg');">
@@ -59,8 +59,8 @@
         <div class="tags-container wow fadeInUp" data-wow-delay="0.8s">
           <h3 class="mb-2">Tags</h3>
           <span class="btn-tag">Festival of Start-up 2023</span>
-          <span class="btn-tag">Visit to - T-Hub</span>
-          <span class="btn-tag">IIT Bombay 2024 – E-Summit</span>
+          <span class="btn-tag">Visit to T-Hub</span>
+          <span class="btn-tag">IIT Bombay 2024 E-Summit</span>
         </div>
         <div class="">
           <h3 class="mb-2">Share with friends</Select:d>
@@ -81,20 +81,22 @@
 
 </section>
 <section id="arambh-img">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 program-padding">
-          <h3 class="mb-3">Glimpses Of Our Events</h3>
-            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-24.svg" class="img-fluid mx-lg-3 my-3">
-            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-25.svg" class="img-fluid mx-lg-3 my-3">
-            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-23.svg" class="img-fluid mx-lg-3 my-3">
-            <img src="<?= base_url()?>/assets/images/events/arambh-season-1/season-22.svg" class="img-fluid mx-lg-3 my-3 img-2">
-            <iframe width="545" height="319" src="https://www.youtube.com/embed/vWSazkz5_ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 program-padding">
+          <h3 class="mb-3">National Level Entrepreneurship Competition - ARAMBH Season-1</h3>
+          <p>The day commenced with an energetic registration process with 92 Students team and 59 Start-ups team highlighting participants enthusiasm.155 participants presented groundbreaking concepts. The success of the National Entrepreneurship Competition lies not only in the impressive number of initial registrations, ranging from 1,700 to 1,800, but also in the quality and diversity of ideas presented. Lent the esteemed presence to lead not only the inaugural ceremony but also the inauguration of a vibrant exhibition featuring approximately 56 stalls. The climax of the event unfolded with the declaration of results. The deserving students and start-ups were recognized with Trophy, and prize money was distributed to honor their exemplary contributions.</p>
+      </div>
 
-        </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 program-flex">
+          <h3 class="mb-3">Glimpses Of Our Past Events</h3>
+          <iframe width="395" height="231" src="https://www.youtube.com/embed/vWSazkz5_ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+          <img width="395" height="231" src="https://staging-srujan.grootsdrive.in//assets/images/events/arambh-season-1/season-24.svg" class="img-fluid mx-lg-3 my-3">
       </div>
     </div>
-  </section>
+  </div>
+</section>
+  
   <section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
   <div class="container">
     <div class="row">
