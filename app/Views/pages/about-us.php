@@ -51,16 +51,22 @@
 </section> 
 <section id="our-leader" class="our-leader section-mt">
   <div class="container" id="banner-common-design wow fadeInUp" data-wow-delay="0.4s">
-    <div class="flex-container">
+    <div class="row flex-container wow fadeInUp" data-wow-delay="0.4s">
+      <div class="col-lg-12 col-md-12 col-sm-12 flex-title-heding">
       <div class="text-content">
-        <h2 class="right-main-header">Our Leaders</h2>
+        <h3 class="right-main-header">Our Leaders</h3>
         <p class="right-main-para">"Guiding with integrity, leading with vision."</p>
       </div>
+      <div class="text-img">
       <img src="<?= base_url(); ?>assets/images/about-us/leadership-icon.svg" alt="our leader" class="image img-fluid">
+        </div>
+      </div>
+     
     </div>
   </div>
   <div class="container mentors-container section-content-mt mb-5">
-    <div id="our-collaborations-owl-carousel" class="owl-carousel wow fadeInUp" data-wow-delay="0.6s">
+  <div class="row wow fadeInUp" data-wow-delay="0.6s">
+  <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/prof-img.svg" alt="Prof. Paramanandhan Balasubramanian">
@@ -69,6 +75,8 @@
         <h4>Chancellor,</h4>
         <p>Sri Balaji University, Pune (SBUP)</p>
       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/shirude-img.svg" alt="Dr. G.K. Shirude">
@@ -77,6 +85,8 @@
         <h4>Vice Chancellor,</h4>
         <p>Sri Balaji University, Pune (SBUP)</p>
       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/saini-img.svg" alt="Dr. Dimple Saini">
@@ -86,6 +96,8 @@
         <p>Sri Balaji University,Dean, SBUP & Senior Director, Corporate Relations, Sri Balaji University, Pune (SBUP)UP
         </p>
       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/pillai-img.svg" alt="Dr. Biju Pillai">
@@ -94,6 +106,7 @@
         <h4>Dean,</h4>
         <p>Faculty of Management & Senior Director, Corporate Relations, Sri Balaji University, Pune (SBUP)</p>
       </div>
+      </div>
      
     </div>
   </div>
@@ -101,16 +114,22 @@
 </section>
 <section id="our-team" class="our-team section-mt">
   <div class="container" id="banner-common-design">
-    <div class="flex-container wow fadeInUp" data-wow-delay="0.4s">
+    <div class="row flex-container wow fadeInUp" data-wow-delay="0.4s">
+      <div class="col-lg-12 col-md-12 col-sm-12 flex-title-heding">
       <div class="text-content">
         <h3 class="right-main-header">Our Team</h3>
         <p class="right-main-para">"Stronger together, achieving more."</p>
       </div>
+      <div class="text-img">
       <img src="<?= base_url(); ?>assets/images/about-us/team-icon.svg" alt="Our Team" class="image img-fluid">
+        </div>
+      </div>
+     
     </div>
   </div>
   <div class="container mentors-container section-content-mt mb-5">
-    <div id="our-team-owl-carousel" class="owl-carousel wow fadeInUp" data-wow-delay="0.6s">
+    <div class="row wow fadeInUp" data-wow-delay="0.6s">
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/paliwal-img.svg" alt="Dr. Manisha Paliwal">
@@ -119,6 +138,8 @@
         <h4>Head,</h4>
         <p>SrujanHub –EDIC</p>
       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/samdani-img.svg" alt="Dr. Nutan Samdani">
@@ -127,6 +148,8 @@
         <h4>Associate Professor,</h4>
         <p>SrujanHub –EDIC</p>
       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/pund-img.svg" alt="Mr. Rajkiran Pund">
@@ -135,6 +158,8 @@
         <h4>Assistant Professor & Nodal Officer,</h4>
         <p>SrujanHub –EDIC</p>
       </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="mentor-card">
         <div class="image-circle">
           <img src="<?= base_url(); ?>assets/images/about-us/bijupillai-img.svg" alt="Mr. Sunil Chaudhary">
@@ -143,16 +168,17 @@
         <h4>OS,</h4>
         <p>SrujanHub –EDIC</p>
       </div>
+      </div>
       <!-- Add more mentor cards as needed -->
     </div>
   </div>
 </section>
 <section id="director-msg" class="section-mt">
   <div class="container">
-    <h2 class="title wow fadeInUp" data-wow-delay="0.4s">Director's Message</h2>
+   
     <div class="director-message-container">
-
-      <div class="message-card">
+    <h2 class="title wow fadeInUp " data-wow-delay="0.4s">Chancellor's Message</h2>
+      <div class="message-card mt-3">
         <div class="image-section wow fadeInUp" data-wow-delay="0.6s">
           <img src="<?= base_url(); ?>assets/images/about-us/prof-img.svg"
             alt="Prof. Paramanandhan Balasubramanian Director" class="director-image">
@@ -181,9 +207,9 @@
   </div>
 
 </section>
-<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+<section id="let-connect" class="let-connect1 letconnet-bg wow fadeInUp" data-wow-delay="0.6s">
   <div class="container">
-    <div class="row">
+    <div class="row let-connect-pt">
       <div class="col-lg-8 col-md-12 col-sm-12">
         <h4> Join us for your exciting journey!</h4>
       </div>

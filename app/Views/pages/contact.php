@@ -28,39 +28,26 @@
           <div id="contact-owl-carousel" class="contact-carousel-1 owl-carousel owl-theme ">
 
             <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-01.svg">
+              <img src="<?= base_url(); ?>assets/images/contact/Incubate-with-us/Incubate-with-us.svg">
             </div>
             <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-02.svg">
+              <img src="<?= base_url(); ?>assets/images/contact/Incubate-with-us/Incubate-with-us2.svg">
             </div>
             <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-03.svg">
+              <img src="<?= base_url(); ?>assets/images/contact/Incubate-with-us/Incubate-with-us3.svg">
             </div>
             <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-04.svg">
+              <img src="<?= base_url(); ?>assets/images/contact/Incubate-with-us/Incubate-with-us4.svg">
             </div>
             <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-05.svg">
+            <img src="<?= base_url(); ?>assets/images/contact/Incubate-with-us/Incubate-with-us5.svg">
+
             </div>
             <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-06.svg">
+            <img src="<?= base_url(); ?>assets/images/contact/Incubate-with-us/Incubate-with-us6.svg">
             </div>
 
-            <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-07.svg">
-            </div>
-
-            <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-08.svg">
-            </div>
-
-            <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-09.svg">
-            </div>
-
-            <div class="item">
-              <img src="<?= base_url(); ?>assets/images/contact/contact-10.svg">
-            </div>
+        
           </div>
         </div>
 
@@ -73,7 +60,7 @@
     <div class="row">
       <div class="col-lg-12  mb-5 pb-5 wow fadeInUp" data-wow-delay="0.6s">
         <div class="text-center heading">
-          <h2>Reach Out and Touch Base</h2>
+          <h2>Connect with Us Today!</h2>
         </div>
       </div>
       <div id="contact-card">
@@ -131,11 +118,7 @@
             <div class="col-lg-6">
               <fieldset>
                 <select name="country" id="country" autocomplete="on">
-                  <option value="">Select a country...</option>
-                  <option value="USA">United States</option>
-                  <option value="UK">United Kingdom</option>
-                  <option value="Canada">Canada</option>
-                  <!-- Add more country options here -->
+                 
                 </select>
               </fieldset>
             </div>
@@ -149,9 +132,13 @@
               <fieldset>
                 <select name="interest" id="interest" autocomplete="on">
                   <option value="">Select a Interest...</option>
-                  <option value="USA">United States</option>
-                  <option value="UK">United Kingdom</option>
-                  <option value="Canada">Canada</option>
+                  <option value="Incubate with us">Incubate with us</option>
+                  <option value="CSR Partnership">CSR Partnership</option>
+                  <option value="Co-create a program">Co-create a Program</option>
+                  <option value="Volunteer with us">Volunteer with us</option>
+                
+                  <option value="Become a Mentor">Become a Mentor</option>
+                  <option value="Become an Investor">Become an Investor</option>
                   <!-- Add more country options here -->
                 </select>
               </fieldset>
@@ -187,9 +174,9 @@
   </div>
   </div>
 </section>
-<section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
+<section id="let-connect" class="let-connect1 wow fadeInUp section-mt" data-wow-delay="0.6s">
   <div class="container">
-    <div class="row">
+    <div class="row let-connect-pt">
       <div class="col-lg-8 col-md-12 col-sm-12">
         <h4> Join us for your exciting journey!</h4>
       </div>
@@ -246,6 +233,42 @@
 
         });
       });
+
+      function getCountry()
+      {
+        $.ajax({ url: "https://restcountries.com/v3.1/all", type: 'GET', 
+            success: function(response){ 
+              const countrySelect = $("#country");
+              // Clear existing options and add a placeholder
+              countrySelect.empty().append('<option value="">Select a country...</option>');
+              console.log('country:',response[0]);
+              response.forEach(function(country) {
+                const countryName = country.name.common;  // Get the common country name
+                const flag = country.flag;  // Get the country's flag emoji
+                const capital = country.capital ? country.capital[0] : 'N/A'; // Get the capital city (if available)
+                
+                // Append the country as an option in the dropdown
+                countrySelect.append(
+                    `<option value="${countryName}" data-flag="${flag}" data-capital="${capital}">
+                        ${countryName} ${flag}
+                    </option>`
+                );
+            });
+
+            }
+          });
+      }
+      getCountry();
+       // When an owl-item is clicked, scroll to the contact form
+    $('#contact-owl-carousel .owl-item').on('click', function() {
+        // Scroll to the contact form
+        $('html, body').animate({
+            scrollTop: $('#contact-form').offset().top  // Scroll to the contact form's top position
+        }, 1000);  // 1000 milliseconds for smooth scroll
+
+        // Focus the first input field in the form
+        $('#contact-form input:first').focus();
+    });
     });
   }
   );

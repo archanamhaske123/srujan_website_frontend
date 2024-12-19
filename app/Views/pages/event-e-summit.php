@@ -42,7 +42,7 @@
 </div>
 <section id="let-connect" class="let-connect1 wow fadeInUp" data-wow-delay="0.6s">
   <div class="container">
-    <div class="row">
+    <div class="row let-connect-pt">
       <div class="col-lg-8 col-md-12 col-sm-12">
         <h4> Join us for your exciting journey!</h4>
       </div>

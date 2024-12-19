@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-9">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
@@ -54,24 +55,24 @@
               <li class="menu-item">
                 <a href="<?= base_url(); ?>events" class="menu-link">Events</a>
               </li>
-              <!-- <li class="menu-item">
-              <a href="<?= base_url(); ?>contact-us" class="menu-link">Contact Us</a>
-            </li> -->
+              <li> <a href="<?= base_url(); ?>arambh" class="main-menu-link">Join for Arambh</a></li>
             </ul>
             <ul class="social-links ">
-              <li style="margin-right: 10px; padding-left: 15px;">
-                <a href="mailto:edu@sbup.edu.in" target="_blank"><img src="<?= base_url(); ?>assets/images/mail-logo.svg" alt="Mail"
-                    style="width: 20px;" class="img-fluid"></a>
-              </li>
-              <li style="margin-right: 10px;">
+
+              <li style="">
                 <a href="https://www.facebook.com/Srujan.edic?mibextid=ZbWKwL" target="_blank"><img
                     src="<?= base_url(); ?>assets/images/facebook.svg" alt="Facebook" style="width: 20px;"
                     class="img-fluid"></a>
               </li>
-              <li style="margin-right: 10px;">
+              <li style="margin-right: 5px;">
                 <a href="https://www.linkedin.com/company/srujan-entrepreneurship-development-incubation-centre"
                   target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin.svg" alt="LinkedIn"
                     style="width: 20px;" class="img-fluid"></a>
+              </li>
+              <li style="margin-right: 5px;">
+                <a href="mailto:edu@sbup.edu.in" target="_blank"><img
+                    src="<?= base_url(); ?>assets/images/mail-logo.svg" alt="Mail" style="width: 20px;"
+                    class="img-fluid"></a>
               </li>
               <!-- <li style="margin-right: 10px;">
                 <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/twitter.svg" alt="Twitter"
@@ -133,27 +134,30 @@
               </a>
             </div>
             <div class="social-icons">
-              <a href="mailto:edu@sbup.edu.in" target="_blank"><img src="<?= base_url(); ?>assets/images/mail-footer-icon.svg" alt="Mail" class="img-fluid"></a>
               <a href="https://www.facebook.com/Srujan.edic?mibextid=ZbWKwL" target="_blank"><img
                   src="<?= base_url(); ?>assets/images/facebook01.svg" alt="Facebook" class="img-fluid"></a>
               <a href="https://www.linkedin.com/company/srujan-entrepreneurship-development-incubation-centre"
-                target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn" class="img-fluid"></a>
-              <!-- <a href="#" target="_blank"><img src="<?= base_url(); ?>assets/images/twitter01.svg" alt="Twitter" class="img-fluid"></a> -->
+                target="_blank"><img src="<?= base_url(); ?>assets/images/linkedin01.svg" alt="LinkedIn"
+                  class="img-fluid"></a>
+              <a href="mailto:edu@sbup.edu.in" target="_blank"><img
+                  src="<?= base_url(); ?>assets/images/mail-footer-icon.svg" alt="Mail" class="img-fluid"></a>
               <a href="https://www.instagram.com/srujan.edic/" target="_blank"><img
                   src="<?= base_url(); ?>assets/images/instagram01.svg" alt="Instagram" class="img-fluid"></a>
             </div>
           </div>
           <div class="col-lg-8 col-md-12 col-sm-12" style="display: flex; flex-wrap: wrap;">
-            <div class="footer-links" style="flex: 1; min-width: 200px; margin-right: 20px;">
+            <div class="footer-links" style="flex: 1; min-width: 200px;">
               <h3>Site Links</h3>
+            
               <a href="<?= base_url(); ?>programs">Programs</a>
               <a href="<?= base_url(); ?>about-us">About</a>
               <a href="<?= base_url(); ?>what-we-do">What We Do</a>
               <a href="<?= base_url(); ?>facilities">Facilities</a>
               <a href="<?= base_url(); ?>mentors">Mentor Pool</a>
             </div>
-            <div class="footer-links" style="flex: 1; min-width: 200px; margin-right: 20px;">
+            <div class="footer-links" style="flex: 1; min-width: 200px;">
               <h3>Explore</h3>
+             
               <a href="<?= base_url(); ?>events">Events</a>
               <a href="#">News</a>
               <a href="#">Blogs</a>
@@ -161,13 +165,13 @@
             </div>
             <div class="footer-contact">
               <h3>Contact</h3>
-              <hr>
+              
               <div class="contact-details">
                 <div class="contact-item">
                   <img src="<?= base_url(); ?>assets/images/location-icon.svg" alt="Location Icon" class="img-fluid">
                   <div class="contact-info">
                     <p class="university-name">
-                       SrujanHub-EDIC - SRI BALAJI UNIVERSITY, PUNE (SBUP)
+                      SrujanHub-EDIC - SRI BALAJI UNIVERSITY, PUNE (SBUP)
                     </p>
                     <p>
                       Survey No. 55/2-7, Tathawade,<br>
@@ -190,7 +194,7 @@
         </div>
       </div>
     </section>
-    <section class="footer-bottom pt-5 pb-5">
+    <section class="footer-bottom">
       <div class="container">
         <div class="row ">
           <div class="col-lg-12 d-flex justify-content-center align-items-center">
@@ -204,8 +208,9 @@
           </div>
           <div class="col-lg-12 footer-copyright text-align-center">
             <p class="text-align-center">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script>  SrujanHub - Foundation for Entrepreneurship & Incubation. All Rights Reserved
-              
+              <script>document.write(new Date().getFullYear());</script> SrujanHub - Foundation for Entrepreneurship &
+              Incubation. All Rights Reserved
+
             </p>
           </div>
         </div>
@@ -224,37 +229,37 @@
   <script src="<?= base_url(); ?>assets/js/custom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script>
-  new WOW().init();
+    new WOW().init();
 
-</script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const defaultTab = document.querySelector(".nav-link.active"); // The default active tab
-    const defaultPane = document.querySelector(".tab-pane.active"); // The default active tab pane
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const defaultTab = document.querySelector(".nav-link.active"); // The default active tab
+      const defaultPane = document.querySelector(".tab-pane.active"); // The default active tab pane
 
-    // Get the hash from the URL
-    const hash = window.location.hash;
+      // Get the hash from the URL
+      const hash = window.location.hash;
 
-    // Check if there's a hash and it matches a tab ID
-    if (hash) {
-      const tabButton = document.querySelector(`.nav-link${hash}`); // Find tab button by hash
-      if (tabButton) {
-        // Remove active class from default tab and pane
-        if (defaultTab) defaultTab.classList.remove("active");
-        if (defaultPane) defaultPane.classList.remove("active", "show");
+      // Check if there's a hash and it matches a tab ID
+      if (hash) {
+        const tabButton = document.querySelector(`.nav-link${hash}`); // Find tab button by hash
+        if (tabButton) {
+          // Remove active class from default tab and pane
+          if (defaultTab) defaultTab.classList.remove("active");
+          if (defaultPane) defaultPane.classList.remove("active", "show");
 
-        // Add active class to the target tab button
-        tabButton.classList.add("active");
+          // Add active class to the target tab button
+          tabButton.classList.add("active");
 
-        // Show corresponding tab pane
-        const targetPane = document.querySelector(tabButton.getAttribute("data-bs-target"));
-        if (targetPane) {
-          targetPane.classList.add("active", "show");
+          // Show corresponding tab pane
+          const targetPane = document.querySelector(tabButton.getAttribute("data-bs-target"));
+          if (targetPane) {
+            targetPane.classList.add("active", "show");
+          }
         }
       }
-    }
-  });
-</script>
+    });
+  </script>
 
 
 

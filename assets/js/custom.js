@@ -39,7 +39,7 @@
     //   loop:true,
     //   nav: true,
 	//   dots:true,
-	//   navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+	//   navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<span class="vertical-line"></span> <i class="fa fa-arrow-right" aria-hidden="true"></i>',],
     //   margin:30,
     //   responsive:{
     //     992:{
@@ -53,7 +53,7 @@
 	$('#our-collaborations-owl-carousel').owlCarousel({
 		loop: true, // Ensure smooth looping
 		margin: 20, // Reduce the margin between items
-		nav: true,
+		nav: true, // Enable navigation
 		center: false, // Disable center mode
 		items: 1,
 		dots: true,
@@ -72,8 +72,8 @@
 			}
 		},
 		navText: [
-			'<i class="fa fa-arrow-left" aria-hidden="true"></i>','<span class="vertical-line"></span> <i class="fa fa-arrow-right" aria-hidden="true"></i>',
-			
+			'<i class="fa fa-circle-chevron-left" aria-hidden="true"></i>',
+			'<i class="fa fa-circle-chevron-right" aria-hidden="true"></i>'
 		]
 	});
 	
@@ -102,8 +102,10 @@
 				items: 4
 			}
 		},
-		navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<span class="vertical-line"></span> <i class="fa fa-arrow-right" aria-hidden="true"></i>',
-		],
+		navText: [
+			'<i class="fa fa-circle-chevron-left" aria-hidden="true"></i>',
+			'<i class="fa fa-circle-chevron-right" aria-hidden="true"></i>'
+		]
 	});
 	$('#event-owl-carousel').owlCarousel({
 		loop: true,
@@ -127,12 +129,14 @@
 				items: 3
 			}
 		},
-		navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<span class="vertical-line"></span> <i class="fa fa-arrow-right" aria-hidden="true"></i>',
-		],
+		navText: [
+			'<i class="fa fa-circle-chevron-left" aria-hidden="true"></i>',
+			'<i class="fa fa-circle-chevron-right" aria-hidden="true"></i>'
+		]
 	});
 	$('#program-testimonial-owl-carousel').owlCarousel({
 		loop: true,
-		margin: 10,
+		margin: 20,
 		nav: true,
 		center: false,
 		 items:1,
@@ -149,14 +153,16 @@
 				items: 1
 			},
 			1000: {
-				items: 1
+				items: 1.5
 			}
 		},
-		navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<span class="vertical-line"></span> <i class="fa fa-arrow-right" aria-hidden="true"></i>',
-		],
+		navText: [
+			'<i class="fa fa-circle-chevron-left" aria-hidden="true"></i>',
+			'<i class="fa fa-circle-chevron-right" aria-hidden="true"></i>'
+		]
 	});
 	$('#contact-owl-carousel').owlCarousel({
-        loop: true,
+		loop: true,
         margin: 30,
         nav: true,
         center: false,
@@ -171,14 +177,19 @@
                 items: 1
             },
             600: {
+                items: 2
+            },
+            768: {
                 items: 4
             },
             1000: {
-                items: 6          
-			 }
+                items: 6
+            }
         },
-        navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>','<span class="vertical-line"></span> <i class="fa fa-arrow-right" aria-hidden="true"></i>',
-        ],
+		navText: [
+			'<i class="fa fa-circle-chevron-left" aria-hidden="true"></i>',
+			'<i class="fa fa-circle-chevron-right" aria-hidden="true"></i>'
+		]
     });
 
 	var width = $(window).width();
